@@ -1,0 +1,1542 @@
+[INFO] [launch]: All log files can be found below /home/neko/.ros/log/2024-01-22-22-12-26-285986-nekobus-47406
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ydlidar_ros2_driver_node-1]: process started with pid [47435]
+[INFO] [controller_lazer-4]: process started with pid [47444]
+[INFO] [static_transform_publisher-2]: process started with pid [47437]
+[INFO] [servo-3]: process started with pid [47442]
+[static_transform_publisher-2] [WARN] [1705929147.332008162] []: Old-style arguments are deprecated; see --help for new-style arguments
+[ydlidar_ros2_driver_node-1] [0m[INFO] [1705929147.441472184] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Current ROS Driver Version: 1.0.1
+[ydlidar_ros2_driver_node-1] [0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK initializing
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK has been initialized
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK Version: 1.1.21
+[static_transform_publisher-2] [INFO] [1705929147.476524311] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.020000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'base_link' to 'laser_frame'
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar successfully connected [/dev/ttyUSB0:115200]
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar running correctly! The health status: good
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar init success, Elapsed time 646 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fail to get baseplate device information
+[controller_lazer-4] improt done
+[controller_lazer-4] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: ReliabilityPolicy.RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT is deprecated. Use ReliabilityPolicy.BEST_EFFORT instead.
+[controller_lazer-4]   warnings.warn(
+[controller_lazer-4] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: HistoryPolicy.RMW_QOS_POLICY_HISTORY_KEEP_LAST is deprecated. Use HistoryPolicy.KEEP_LAST instead.
+[controller_lazer-4]   warnings.warn(
+[controller_lazer-4] [0m[INFO] [1705929149.110741894] [controller_lazer_node]: --------------------------------[0m
+[controller_lazer-4] [0m[INFO] [1705929149.113163969] [controller_lazer_node]: conv_num:   21[0m
+[controller_lazer-4] [0m[INFO] [1705929149.115448713] [controller_lazer_node]: speed_func: 0[0m
+[controller_lazer-4] [0m[INFO] [1705929149.117654071] [controller_lazer_node]: --------------------------------[0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Start to getting intensity flag
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Auto set intensity 0
+[ydlidar_ros2_driver_node-1] [YDLIDAR] End to getting intensity flag
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Create thread 0xA687A8E0
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Successed to start scan mode, Elapsed time 2889 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Single Fixed Size: 260
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Successed to check the lidar, Elapsed time 332 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Now lidar is scanning...
+[controller_lazer-4] [0m[INFO] [1705929151.408701578] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929151.411260465] [controller_lazer_node]: [0.      1.482   1.531   1.578   1.632   1.689   1.753   1.812   1.853
+[controller_lazer-4]  2.35075 2.374   2.402   2.433   2.47    2.505   2.546   2.66075 2.79175
+[controller_lazer-4]  2.93075 3.11175 3.30575 3.442   3.425   0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      3.32    2.64375 2.37875 2.08375 1.83275 1.61875
+[controller_lazer-4]  1.46675 1.33675 1.22075 1.12275 1.04075 0.96875 0.      0.90475 0.84875
+[controller_lazer-4]  0.79775 0.75275 0.71375 0.67875 0.64775 0.61875 0.59175 0.568   0.546
+[controller_lazer-4]  0.      0.526  ][0m
+[controller_lazer-4] [0m[INFO] [1705929151.413564839] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929151.415813177] [controller_lazer_node]: [45.21149981 48.65349972 50.59649968 49.06549966 47.48749971 45.85549974
+[controller_lazer-4]  44.16649973 42.41349971 40.60149968 38.74849963 36.39774966 34.02374959
+[controller_lazer-4]  31.62174964 29.18874955 26.71874952 24.21374941 21.6677494  19.00699949
+[controller_lazer-4]  16.21524954 16.60449958 16.13649964 15.20949984 13.85124993 12.25899994
+[controller_lazer-4]  13.87774992 15.34449995 16.68124998 17.90199995 19.02474999 20.06550002
+[controller_lazer-4]  21.03425002 21.03425002 21.93900001 22.78775001 23.5855     24.33824998
+[controller_lazer-4]  25.05199999 25.73074996 26.37849998 26.99724996 24.26900005 22.19325012
+[controller_lazer-4]  20.36050004 18.27675003 16.97000009][0m
+[controller_lazer-4] [0m[INFO] [1705929151.418810702] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.40935712768918[0m
+[servo-3] [INFO] [1705929151.526705657] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[controller_lazer-4] [0m[INFO] [1705929151.529320802] [controller_lazer_node]: ----------------------------- ranges[0m
+[servo-3] [INFO] [1705929151.529320747] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[controller_lazer-4] [0m[INFO] [1705929151.531891374] [controller_lazer_node]: [0.      1.488   1.533   1.581   1.635   1.693   1.755   1.822   1.857
+[controller_lazer-4]  2.35175 2.385   2.404   2.435   2.472   2.508   2.56    2.668   2.81275
+[controller_lazer-4]  2.95075 3.12275 3.30975 3.49575 3.59    0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      4.096
+[controller_lazer-4]  0.      0.      0.      3.20875 2.57475 2.32675 2.02475 1.78875 1.59275
+[controller_lazer-4]  1.44575 1.30775 1.19975 0.      1.09975 1.02175 0.95475 0.89075 0.83575
+[controller_lazer-4]  0.78875 0.74575 0.70675 0.67075 0.63975 0.61175 0.      0.58575 0.562
+[controller_lazer-4]  0.541   0.522  ][0m
+[servo-3] [INFO] [1705929151.533426673] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929151.534422576] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929151.536910705] [controller_lazer_node]: [45.34374988 48.83949983 50.94149971 49.40849972 47.82749975 46.19249976
+[controller_lazer-4]  44.4994998  42.7444998  40.92249978 39.06549978 36.71374989 34.3287499
+[controller_lazer-4]  31.92474985 29.48974991 27.01775002 28.60575032 26.04575038 23.3777504
+[controller_lazer-4]  20.5650003  20.82300019 20.2750001  19.29200006 17.8210001  16.01975024
+[controller_lazer-4]  17.61250019 19.05825019 20.36600018 21.56575012 21.56575012 22.66550016
+[controller_lazer-4]  23.68725014 24.64200014 25.53275013 26.36850011 27.15725011 27.90300012
+[controller_lazer-4]  24.5137499  25.18449992 25.82424992 26.43599993 23.22724992 21.23824996
+[controller_lazer-4]  19.47349989 17.98974991 16.72299987][0m
+[controller_lazer-4] [0m[INFO] [1705929151.539326021] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.425785700480143[0m
+[servo-3] [INFO] [1705929151.542676297] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929151.544942061] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929151.548694717] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929151.658653571] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929151.660890465] [controller_lazer_node]: [0.      1.489   1.536   1.587   1.64    1.697   1.761   1.828   1.865
+[controller_lazer-4]  2.35175 2.388   2.407   2.444   2.475   2.516   2.567   2.672   2.81775
+[controller_lazer-4]  2.97975 3.13375 3.32075 3.438   3.422   0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      4.088
+[controller_lazer-4]  0.      0.      0.      3.13075 2.57475 2.32775 2.00675 1.77875 1.58075
+[controller_lazer-4]  1.45175 1.30575 1.19475 0.      1.09875 1.02075 0.95175 0.88875 0.83475
+[controller_lazer-4]  0.78575 0.74475 0.70575 0.67075 0.63975 0.      0.61175 0.58475 0.562
+[controller_lazer-4]  0.54    0.521  ][0m
+[controller_lazer-4] [0m[INFO] [1705929151.663238634] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929151.665473861] [controller_lazer_node]: [45.47574961 48.91374958 50.84674954 49.31074953 47.72374952 46.08374953
+[controller_lazer-4]  44.38674951 42.62574947 40.79774952 38.93274951 36.58099961 34.1929996
+[controller_lazer-4]  31.78599954 29.34199953 26.86699963 28.43899941 25.8719995  23.19999957
+[controller_lazer-4]  20.38224959 20.53324962 19.9742496  18.98124957 17.54999971 15.90674973
+[controller_lazer-4]  17.48749971 18.93924975 20.24499977 21.43974972 21.43974972 22.53849971
+[controller_lazer-4]  23.55924976 24.51099974 25.39974976 26.23449975 27.02024972 27.76499975
+[controller_lazer-4]  24.38274992 25.05349994 25.69324994 25.69324994 23.17425001 21.18425006
+[controller_lazer-4]  19.41850007 17.95174998 16.69400007][0m
+[controller_lazer-4] [0m[INFO] [1705929151.668006526] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.4212737878163657[0m
+[servo-3] [INFO] [1705929151.671265768] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929151.673511698] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929151.677792028] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929151.777362264] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929151.780180256] [controller_lazer_node]: [0.      1.474   1.516   1.565   1.617   1.675   1.735   1.799   1.85
+[controller_lazer-4]  2.34575 2.37    2.398   2.428   2.465   2.492   2.533   2.64575 2.756
+[controller_lazer-4]  2.91175 3.08175 3.24175 3.44075 3.78275 3.784   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      4.091   0.      4.11    0.
+[controller_lazer-4]  0.      0.      3.42475 0.      2.77975 2.40675 2.12275 1.85175 1.65175
+[controller_lazer-4]  1.48375 1.34775 1.23375 1.13675 1.04975 0.97575 0.      0.91175 0.85475
+[controller_lazer-4]  0.80475 0.75975 0.71975 0.68475 0.65075 0.62275 0.59575 0.571   0.549
+[controller_lazer-4]  0.      0.529  ][0m
+[controller_lazer-4] [0m[INFO] [1705929151.783390498] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929151.786166787] [controller_lazer_node]: [44.89975011 48.3405     50.64924991 52.9172498  51.35224974 49.73524976
+[controller_lazer-4]  48.06024981 46.32524979 44.52624977 42.67624974 40.33049965 37.96049976
+[controller_lazer-4]  39.65349984 37.22549987 38.87050009 36.37849998 33.84549999 31.19974995
+[controller_lazer-4]  31.86849999 28.95674992 28.65475011 27.81975007 26.50175023 24.57075036
+[controller_lazer-4]  22.4385004  23.92225039 25.27000034 26.50375032 27.64050031 28.69025028
+[controller_lazer-4]  29.66600031 29.66600031 30.57775033 27.34150022 28.14625025 24.79600012
+[controller_lazer-4]  25.51575011 26.20050013 26.85125011 24.04925001 24.64499998 22.43624985
+[controller_lazer-4]  20.57849991 18.45574987 17.13299984][0m
+[controller_lazer-4] [0m[INFO] [1705929151.788999187] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.5198690380368913[0m
+[servo-3] [INFO] [1705929151.792720066] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929151.795346951] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929151.799506894] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929151.899019835] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929151.902572588] [controller_lazer_node]: [0.      1.491   1.537   1.589   1.642   1.698   1.762   1.83    2.04375
+[controller_lazer-4]  2.35575 2.389   2.409   2.445   2.478   2.511   2.584   2.687   2.82475
+[controller_lazer-4]  2.98875 3.14675 3.33675 3.54875 3.70975 0.      3.783   0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      4.088   0.      4.078   4.108
+[controller_lazer-4]  0.      0.      0.      3.05275 2.54475 2.28075 2.00475 1.76075 1.56975
+[controller_lazer-4]  0.      1.43375 1.29775 1.18675 1.09575 1.01375 0.94775 0.88375 0.83075
+[controller_lazer-4]  0.78475 0.74175 0.70475 0.      0.66975 0.63875 0.60975 0.58475 0.562
+[controller_lazer-4]  0.54    0.521  ][0m
+[controller_lazer-4] [0m[INFO] [1705929151.905730498] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929151.908815151] [controller_lazer_node]: [45.74849975 49.29724967 51.51599956 49.97899961 52.17299962 50.53099966
+[controller_lazer-4]  48.83299971 47.07099974 45.2409997  43.19724965 40.84149957 38.45249963
+[controller_lazer-4]  40.13149953 37.6864996  39.28649974 40.88349962 38.29949951 35.61249948
+[controller_lazer-4]  32.78774953 32.85174966 32.24974966 31.19374967 29.64974976 27.70074987
+[controller_lazer-4]  29.27049983 25.48749983 26.92124987 28.21899986 29.40574992 30.50149989
+[controller_lazer-4]  31.51524985 32.46299982 33.34674984 30.08950001 30.87424999 27.53799993
+[controller_lazer-4]  24.13475013 24.13475013 24.8045001  25.44325012 23.00024998 21.04025
+[controller_lazer-4]  19.32149994 17.85674995 16.61699992][0m
+[controller_lazer-4] [0m[INFO] [1705929151.911479739] [controller_lazer_node]: 最も遠い点の角度: -24.15057987207659度, 距離: 2.4844285533541726[0m
+[servo-3] [INFO] [1705929151.915386503] [drive_node]: subscribe servo throtle: 4.0, steering: -24.15057987207659
+[servo-3] [INFO] [1705929151.918242513] [drive_node]: set_angle: -24.15057987207659 [430.501932906922]
+[servo-3] [INFO] [1705929151.922426344] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.020336970] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.022962522] [controller_lazer_node]: [0.      1.483   1.531   1.578   1.634   1.692   1.754   1.822   1.853
+[controller_lazer-4]  2.35175 2.385   2.404   2.435   2.471   2.504   2.559   2.666   2.81175
+[controller_lazer-4]  2.95275 3.12575 3.30975 3.49475 3.608   0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      4.073   4.11
+[controller_lazer-4]  0.      0.      0.      3.21075 2.57475 2.32675 2.02375 1.77675 1.59075
+[controller_lazer-4]  1.44575 0.      1.30775 1.19975 1.09975 1.02175 0.95475 0.88975 0.83575
+[controller_lazer-4]  0.78775 0.74575 0.70675 0.67275 0.      0.64075 0.61175 0.586   0.563
+[controller_lazer-4]  0.542   0.522  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.025915197] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.028531804] [controller_lazer_node]: [45.32274973 48.81749976 50.94249976 49.41149974 47.83349979 46.19949985
+[controller_lazer-4]  44.50749981 42.75349987 40.93149984 39.07849979 36.7267499  34.34174991
+[controller_lazer-4]  31.93774986 29.50274992 31.10474992 32.7107501  30.15175009 27.4857502
+[controller_lazer-4]  24.67400026 24.9320004  24.38100028 23.39800024 21.92700028 20.09575021
+[controller_lazer-4]  21.68650019 23.13225019 23.13225019 24.44000018 25.63975012 26.73950016
+[controller_lazer-4]  27.76125014 28.71600014 29.60575014 30.44150013 31.22925013 27.90200019
+[controller_lazer-4]  24.49875003 25.17150003 25.17150003 25.81225002 23.21324992 21.2245
+[controller_lazer-4]  19.46074998 17.97899991 16.72424996][0m
+[controller_lazer-4] [0m[INFO] [1705929152.031323168] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.4258333217530024[0m
+[servo-3] [INFO] [1705929152.036136652] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929152.039647666] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929152.043934421] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.140227200] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.142926250] [controller_lazer_node]: [0.      1.481   1.529   1.577   1.632   1.689   1.749   1.812   1.852
+[controller_lazer-4]  2.34875 2.384   2.403   2.433   2.471   2.506   2.557   2.663   2.79375
+[controller_lazer-4]  2.94675 3.11775 3.30775 3.49475 3.89775 3.931   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      4.088   0.      4.061   4.074
+[controller_lazer-4]  0.      0.      0.      3.21775 2.57775 2.32875 2.04075 1.80275 1.59375
+[controller_lazer-4]  1.44675 0.      1.31475 1.20075 1.10875 1.02475 0.95575 0.89275 0.83675
+[controller_lazer-4]  0.78875 0.74675 0.70875 0.      0.67375 0.64275 0.61275 0.58675 0.563
+[controller_lazer-4]  0.542   0.523  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.145770723] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.148263204] [controller_lazer_node]: [45.25275028 48.7475003  51.16425025 53.56625021 51.98925018 50.35725021
+[controller_lazer-4]  48.6682502  46.91925025 45.10725021 43.25525022 40.9065001  38.52250004
+[controller_lazer-4]  40.20749974 37.77449965 39.36449957 40.93249941 38.37549949 35.71249938
+[controller_lazer-4]  32.91874933 33.18974948 32.64974952 31.67074943 30.21674943 28.12174952
+[controller_lazer-4]  25.78449953 27.23124957 27.23124957 28.54599953 29.74674952 30.85549951
+[controller_lazer-4]  31.8802495  32.83599949 33.72874951 30.47749966 31.26624966 27.95199978
+[controller_lazer-4]  24.58674991 24.58674991 25.26049989 25.90324992 23.29824984 21.30724984
+[controller_lazer-4]  19.54149997 18.04274994 16.76299995][0m
+[controller_lazer-4] [0m[INFO] [1705929152.151231452] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.550773819287618[0m
+[servo-3] [INFO] [1705929152.154931221] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929152.157541903] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929152.161519795] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.266907925] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.269371240] [controller_lazer_node]: [0.      1.468   1.513   1.562   1.614   1.669   1.731   1.793   1.853
+[controller_lazer-4]  2.34775 2.362   2.393   2.426   2.462   2.487   2.529   2.622   2.74975
+[controller_lazer-4]  2.90275 3.07275 3.22975 3.42275 3.59175 0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      4.101   4.108
+[controller_lazer-4]  0.      0.      0.      3.43475 2.79575 2.40275 2.12675 1.88175 1.65475
+[controller_lazer-4]  1.48675 1.35675 1.24075 1.13975 1.05175 0.      0.98075 0.91475 0.85875
+[controller_lazer-4]  0.80575 0.76075 0.72275 0.68575 0.65275 0.62375 0.59675 0.      0.572
+[controller_lazer-4]  0.549   0.529  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.271950238] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.274478514] [controller_lazer_node]: [44.78674984 48.20949984 50.33324969 48.82024968 47.25824964 45.64424968
+[controller_lazer-4]  43.97524965 42.2442497  40.45124972 38.59824967 36.25049973 33.88849974
+[controller_lazer-4]  31.49549985 29.06949973 30.70849967 32.32949948 29.80049944 27.17849946
+[controller_lazer-4]  24.42874956 24.96074963 24.68374944 23.85674953 22.56074953 20.85074961
+[controller_lazer-4]  22.5054996  23.99224961 25.34899962 26.58974957 27.72949958 28.78124952
+[controller_lazer-4]  28.78124952 29.76199955 30.67674953 31.53549951 32.34124953 29.00099969
+[controller_lazer-4]  25.6157499  26.3014999  26.95424992 27.57799989 24.73999983 21.94424993
+[controller_lazer-4]  20.11349994 18.53574997 17.18299997][0m
+[controller_lazer-4] [0m[INFO] [1705929152.276826424] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.3968214137213573[0m
+[servo-3] [INFO] [1705929152.280103850] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929152.282400558] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929152.286169214] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.392626153] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.396297052] [controller_lazer_node]: [0.      1.465   1.512   1.558   1.612   1.667   1.728   1.792   1.86
+[controller_lazer-4]  2.34675 2.369   2.395   2.423   2.455   2.489   2.53    2.623   2.74775
+[controller_lazer-4]  2.90175 3.06475 3.22975 3.42675 3.75575 3.784   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      4.087   0.      0.      4.087   4.096
+[controller_lazer-4]  4.122   0.      3.44375 0.      2.80075 2.40275 2.14975 1.88375 1.67575
+[controller_lazer-4]  1.49675 1.37075 1.24875 1.14775 1.05975 0.98275 0.      0.92075 0.85975
+[controller_lazer-4]  0.80875 0.76575 0.72475 0.68875 0.65575 0.62575 0.59875 0.57375 0.552
+[controller_lazer-4]  0.      0.531  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.398670314] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.400921633] [controller_lazer_node]: [44.76875007 48.19550002 50.48624992 52.75824988 51.20024991 49.58824992
+[controller_lazer-4]  47.92124987 46.19324982 44.40124977 42.54124975 40.19449973 41.91249967
+[controller_lazer-4]  39.51749969 37.09449959 38.72649956 40.33349967 41.92549992 39.30250001
+[controller_lazer-4]  39.99849987 37.09674978 36.83274984 36.00574994 34.72874999 32.85675001
+[controller_lazer-4]  30.74850011 32.24525011 33.61600006 34.86475003 36.01250005 37.07225001
+[controller_lazer-4]  38.05500001 38.05500001 34.88875014 35.74850011 36.55725008 33.23600018
+[controller_lazer-4]  29.86474997 26.43149978 27.08724976 24.26924986 24.86799985 22.64099985
+[controller_lazer-4]  20.79024982 18.64049983 17.28774989][0m
+[controller_lazer-4] [0m[INFO] [1705929152.403324727] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.51229761328016[0m
+[servo-3] [INFO] [1705929152.406612931] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929152.408841603] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929152.412560057] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.522893983] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.526854542] [controller_lazer_node]: [0.      1.502   1.549   1.596   1.657   1.712   1.776   1.842   2.34675
+[controller_lazer-4]  2.356   2.395   2.416   2.452   0.      2.479   2.515   2.603   2.713
+[controller_lazer-4]  2.84075 3.00775 3.20775 3.37875 3.55775 3.629   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      4.087
+[controller_lazer-4]  0.      0.      3.50575 2.95475 2.48375 2.21275 1.94975 0.      1.71875
+[controller_lazer-4]  1.51775 1.39075 1.27275 1.16475 1.07675 0.99975 0.93275 0.87175 0.82175
+[controller_lazer-4]  0.      0.77375 0.73375 0.69575 0.66275 0.63175 0.60475 0.57875 0.556
+[controller_lazer-4]  0.536   0.517  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.531606343] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.536228090] [controller_lazer_node]: [42.96599996 46.34475005 48.40050006 50.48049998 48.88450003 47.22750008
+[controller_lazer-4]  45.51550007 43.73950005 41.89750004 39.55075002 37.19475007 34.79975009
+[controller_lazer-4]  32.3837502  29.9317503  29.9317503  31.5397501  29.02474999 26.42175007
+[controller_lazer-4]  27.21449995 27.32850003 26.8045001  25.80949998 24.38049984 20.82274985
+[controller_lazer-4]  18.9124999  20.43024993 21.82099998 23.09375    24.25849998 25.33525002
+[controller_lazer-4]  26.33500004 27.26775002 28.13950002 28.96125001 28.96125001 29.73500001
+[controller_lazer-4]  26.38175011 27.0775001  27.74025011 24.86625016 22.51625007 20.61124998
+[controller_lazer-4]  18.95450002 17.54075009 18.05775011][0m
+[controller_lazer-4] [0m[INFO] [1705929152.540548549] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.403833332515898[0m
+[servo-3] [INFO] [1705929152.546756502] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929152.550715561] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929152.555850408] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.657183518] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.659547465] [controller_lazer_node]: [0.      1.47    1.513   1.562   1.614   1.669   1.731   1.796   1.856
+[controller_lazer-4]  2.34775 2.36    2.396   2.426   2.463   2.49    2.531   2.64375 2.752
+[controller_lazer-4]  2.90875 3.08175 3.23675 3.43775 3.586   3.665   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      4.074   4.087
+[controller_lazer-4]  4.108   0.      0.      3.33375 2.77975 2.38175 2.08575 1.83775 1.63975
+[controller_lazer-4]  1.47575 1.33975 1.23275 1.13075 0.      1.04175 0.97275 0.90675 0.85175
+[controller_lazer-4]  0.80075 0.75575 0.71775 0.68075 0.64875 0.62075 0.59375 0.      0.56875
+[controller_lazer-4]  0.547   0.527  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.661894857] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.664136751] [controller_lazer_node]: [44.84774971 48.28549981 50.40149975 52.5534997  50.99149966 49.3774997
+[controller_lazer-4]  47.70849967 45.97749972 44.18149972 42.32549977 39.97774982 37.61774993
+[controller_lazer-4]  35.22175002 32.7957499  34.40674973 36.00374961 37.58074951 34.93699956
+[controller_lazer-4]  32.18499947 32.60999942 32.30799961 31.45299983 30.10099983 28.35274982
+[controller_lazer-4]  26.32749987 27.80324984 29.14299989 30.37574995 31.50649989 31.50649989
+[controller_lazer-4]  32.54824984 33.52099985 34.42774987 35.27949989 36.08024991 32.76200002
+[controller_lazer-4]  29.39275014 25.96550035 26.61425036 27.23500037 24.49500036 21.71525025
+[controller_lazer-4]  19.90225017 18.36350006 17.05275011][0m
+[controller_lazer-4] [0m[INFO] [1705929152.666683620] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.5025476046970914[0m
+[servo-3] [INFO] [1705929152.670016693] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929152.672376288] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929152.676068557] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.775897756] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.778840264] [controller_lazer_node]: [0.      1.479   1.526   1.575   1.627   1.682   1.743   1.809   1.85
+[controller_lazer-4]  2.35075 2.384   2.403   2.434   2.47    2.503   2.546   2.65875 2.79175
+[controller_lazer-4]  2.94675 3.11775 3.30675 3.48975 3.591   0.      3.693   0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      4.075   0.      3.21775 2.57375 2.33075 2.02575 1.80075 1.59175
+[controller_lazer-4]  1.45175 0.      1.30775 1.20075 1.10375 1.02475 0.95575 0.89075 0.83675
+[controller_lazer-4]  0.78875 0.74675 0.70775 0.      0.67375 0.64175 0.61175 0.586   0.563
+[controller_lazer-4]  0.543   0.522  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.782118912] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.784814833] [controller_lazer_node]: [45.20350027 48.69325018 50.80525029 49.27925026 51.39725029 49.77025032
+[controller_lazer-4]  48.08825028 46.34525025 44.53625023 42.68625021 40.33550024 37.95150018
+[controller_lazer-4]  35.54850006 33.11450005 30.64450002 28.1415     25.59549999 27.01174974
+[controller_lazer-4]  24.21999979 24.49099994 23.94700003 22.97099996 21.50699997 19.71674991
+[controller_lazer-4]  21.30849993 19.06724989 19.06724989 20.37499988 21.57574987 22.67949986
+[controller_lazer-4]  23.70424986 24.65999985 25.55074984 26.38749981 27.1762498  27.9229998
+[controller_lazer-4]  28.63074982 28.63074982 25.2295     25.87124997 23.26524991 21.27749991
+[controller_lazer-4]  19.50974995 18.02700001 16.74825001][0m
+[controller_lazer-4] [0m[INFO] [1705929152.787693861] [controller_lazer_node]: 最も遠い点の角度: -24.15057987207659度, 距離: 2.4474881092707315[0m
+[servo-3] [INFO] [1705929152.791371982] [drive_node]: subscribe servo throtle: 4.0, steering: -24.15057987207659
+[servo-3] [INFO] [1705929152.794076903] [drive_node]: set_angle: -24.15057987207659 [430.501932906922]
+[servo-3] [INFO] [1705929152.798382565] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929152.896568005] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929152.899216390] [controller_lazer_node]: [0.      1.495   1.542   1.592   1.645   1.706   1.768   1.837   1.846
+[controller_lazer-4]  2.35575 2.392   2.412   2.447   2.478   2.511   0.      2.592   2.691
+[controller_lazer-4]  2.83075 2.99675 3.17775 3.34275 3.53275 0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      4.073
+[controller_lazer-4]  0.      0.      0.      2.97175 2.48475 2.24075 1.95175 0.      1.73375
+[controller_lazer-4]  1.53875 1.39975 1.28575 1.17475 1.08575 1.00775 0.93875 0.87875 0.82475
+[controller_lazer-4]  0.      0.77875 0.73575 0.69875 0.66575 0.63475 0.60675 0.58075 0.558
+[controller_lazer-4]  0.537   0.518  ][0m
+[controller_lazer-4] [0m[INFO] [1705929152.901889460] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929152.904457643] [controller_lazer_node]: [42.31500006 45.65775013 47.69550002 46.15349996 44.56149995 42.91649997
+[controller_lazer-4]  41.2105     39.4425     37.60549998 35.75950003 33.40374994 31.01174998
+[controller_lazer-4]  28.59975004 26.15275002 23.67475009 25.23675013 25.23675013 22.64475012
+[controller_lazer-4]  19.95375013 20.09475017 19.58275008 18.64575005 17.25475001 13.72200012
+[controller_lazer-4]  15.45575011 16.99450016 18.39425015 19.68000019 20.85475016 21.94050014
+[controller_lazer-4]  22.94825017 23.8870002  24.76575023 25.59050024 25.59050024 26.36925024
+[controller_lazer-4]  23.0320003  23.73075032 24.39650035 25.03125036 22.66625035 20.7622503
+[controller_lazer-4]  19.07950026 17.66475022 18.18275023][0m
+[controller_lazer-4] [0m[INFO] [1705929152.907238358] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.2712142864863076[0m
+[servo-3] [INFO] [1705929152.911235157] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929152.914041853] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929152.918281461] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929153.015886230] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.018607854] [controller_lazer_node]: [0.      1.457   1.499   1.545   1.595   1.65    1.709   1.771   1.84
+[controller_lazer-4]  1.92175 1.932   1.909   1.89    1.89    1.877   1.871   0.      0.
+[controller_lazer-4]  1.84    1.837   1.836   1.824   1.812   1.796   1.795   1.805   1.795
+[controller_lazer-4]  1.795   1.79    1.778   1.763   1.732   0.      0.      1.74    1.733
+[controller_lazer-4]  1.729   1.712   1.729   1.734   1.746   1.746   1.723   1.749   1.72
+[controller_lazer-4]  1.55875 1.40075 1.28275 1.17475 1.08175 1.00175 0.      0.93975 0.87775
+[controller_lazer-4]  0.82375 0.77875 0.73575 0.69875 0.66575 0.63575 0.60675 0.58175 0.
+[controller_lazer-4]  0.559   0.538  ][0m
+[controller_lazer-4] [0m[INFO] [1705929153.021206740] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.023901291] [controller_lazer_node]: [31.86975002 33.69375002 34.04875004 34.34575009 34.59575009 34.80575001
+[controller_lazer-4]  34.95074999 35.03674996 35.05574989 34.99374986 34.83499992 34.63499987
+[controller_lazer-4]  32.72599983 30.83599985 30.68599987 30.54199994 30.39999986 32.11199987
+[controller_lazer-4]  33.84099984 33.73499978 33.64399981 33.5539999  33.45299995 33.38999987
+[controller_lazer-4]  33.31399989 33.07774997 32.67350006 32.16125011 31.54100013 30.8327502
+[controller_lazer-4]  30.0565002  28.29350019 27.50125021 28.37900019 29.20275021 28.2415002
+[controller_lazer-4]  27.24425018 26.21400023 25.16775024 24.07450026 22.94725031 21.78300023
+[controller_lazer-4]  20.03700018 18.87300014 17.66200018][0m
+[controller_lazer-4] [0m[INFO] [1705929153.028548835] [controller_lazer_node]: 最も遠い点の角度: -18.59073417069993度, 距離: 1.6693214234851657[0m
+[servo-3] [INFO] [1705929153.032434118] [drive_node]: subscribe servo throtle: 3.0, steering: -18.59073417069993
+[servo-3] [INFO] [1705929153.035234185] [drive_node]: set_angle: -18.59073417069993 [411.9691139023331]
+[servo-3] [INFO] [1705929153.039354407] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929153.137031217] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.139632455] [controller_lazer_node]: [0.    0.    0.215 0.21  0.205 0.2   0.196 0.192 0.188 0.184 0.    0.18
+[controller_lazer-4]  0.177 0.175 0.172 0.17  0.168 0.167 0.165 0.164 0.162 0.162 0.161 0.
+[controller_lazer-4]  0.159 0.159 0.16  0.159 0.159 0.159 0.161 0.161 0.162 0.    0.165 0.165
+[controller_lazer-4]  0.166 0.167 0.169 0.176 0.178 0.179 0.181 0.182 0.185 0.187 0.189 0.191
+[controller_lazer-4]  0.192 0.193 0.195 0.197 0.199 0.2   0.203 0.204 0.207 0.208 0.211 0.213
+[controller_lazer-4]  0.216 0.218 0.222 0.225 0.228][0m
+[controller_lazer-4] [0m[INFO] [1705929153.142419948] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.144937614] [controller_lazer_node]: [3.29000001 3.45200001 3.61300001 3.398      3.347      3.301
+[controller_lazer-4]  3.26099999 3.22399999 3.19099998 3.16199999 3.13899998 3.29999998
+[controller_lazer-4]  3.28199998 3.10499997 3.09499998 3.08799998 3.08399998 3.08299997
+[controller_lazer-4]  3.08499998 3.09599997 3.10999997 3.12699997 3.14599997 3.16699997
+[controller_lazer-4]  3.35199997 3.37999998 3.40999998 3.44099998 3.47399999 3.508
+[controller_lazer-4]  3.544      3.58       3.618      3.656      3.859      3.89799999
+[controller_lazer-4]  3.93999998 3.98199999 4.02599999 4.06999999 4.11       4.14999999
+[controller_lazer-4]  4.19299999 4.23699999 4.28299999][0m
+[controller_lazer-4] [0m[INFO] [1705929153.147734866] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 0.20395238058907644[0m
+[servo-3] [INFO] [1705929153.151395580] [drive_node]: subscribe servo throtle: 0.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929153.154117019] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929153.158285536] [drive_node]: set_accel: 0.0 [360.0]
+[controller_lazer-4] [0m[INFO] [1705929153.264944367] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.267341091] [controller_lazer_node]: [0.    0.161 0.158 0.154 0.15  0.148 0.145 0.    0.142 0.139 0.138 0.134
+[controller_lazer-4]  0.132 0.13  0.129 0.    0.127 0.126 0.126 0.124 0.123 0.    0.121 0.
+[controller_lazer-4]  0.    0.    0.    0.    0.    0.    0.    0.    0.12  0.    0.    0.122
+[controller_lazer-4]  0.    0.122 0.123 0.124 0.125 0.126 0.127 0.128 0.13  0.131 0.134 0.136
+[controller_lazer-4]  0.138 0.141 0.143 0.146 0.149 0.155 0.158 0.161 0.163 0.167 0.169 0.172
+[controller_lazer-4]  0.175 0.178 0.18  0.184 0.187][0m
+[controller_lazer-4] [0m[INFO] [1705929153.269789591] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.272130020] [controller_lazer_node]: [2.48600001 2.48600001 2.44600001 2.288      2.134      1.984
+[controller_lazer-4]  1.836      1.691      1.691      1.54899999 1.41       1.272
+[controller_lazer-4]  1.25799999 1.12599999 0.996      0.98900001 0.98900001 0.984
+[controller_lazer-4]  0.98100001 0.979      0.98       0.983      1.11000001 1.11700001
+[controller_lazer-4]  1.24700001 1.37800001 1.51200001 1.64800002 1.78600001 1.92700002
+[controller_lazer-4]  2.07000002 2.21600002 2.36500002 2.40000003 2.55800004 2.71900003
+[controller_lazer-4]  2.76000004 2.92700003 2.97400003 3.02300003 3.07400003 3.12700003
+[controller_lazer-4]  3.18100004 3.23800004 3.29700004][0m
+[controller_lazer-4] [0m[INFO] [1705929153.274478579] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 0.1570000016973132[0m
+[servo-3] [INFO] [1705929153.277767820] [drive_node]: subscribe servo throtle: 0.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929153.280122563] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929153.283972884] [drive_node]: set_accel: 0.0 [360.0]
+[controller_lazer-4] [0m[INFO] [1705929153.389626145] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.392632281] [controller_lazer_node]: [0.    0.    0.18  0.175 0.17  0.167 0.162 0.159 0.156 0.    0.153 0.152
+[controller_lazer-4]  0.149 0.147 0.144 0.143 0.142 0.142 0.141 0.141 0.    0.14  0.138 0.138
+[controller_lazer-4]  0.138 0.139 0.138 0.139 0.14  0.14  0.142 0.143 0.143 0.    0.147 0.148
+[controller_lazer-4]  0.151 0.155 0.156 0.157 0.16  0.161 0.163 0.166 0.167 0.169 0.17  0.171
+[controller_lazer-4]  0.173 0.175 0.178 0.179 0.181 0.183 0.185 0.188 0.19  0.192 0.195 0.197
+[controller_lazer-4]  0.199 0.203 0.205 0.208 0.211][0m
+[controller_lazer-4] [0m[INFO] [1705929153.395633362] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.397873367] [controller_lazer_node]: [2.62300001 2.76300001 2.90100001 2.859      2.822      2.79099999
+[controller_lazer-4]  2.76199999 2.73899999 2.72       2.704      2.846      2.83600001
+[controller_lazer-4]  2.82700002 2.67800002 2.67800002 2.68200003 2.69000001 2.70300001
+[controller_lazer-4]  2.71700001 2.73300001 2.752      2.913      2.936      2.964
+[controller_lazer-4]  2.993      3.024      3.05500001 3.08800001 3.12200001 3.15700001
+[controller_lazer-4]  3.19500001 3.23200001 3.27       3.30999999 3.49499999 3.53599998
+[controller_lazer-4]  3.57799998 3.61899999 3.65899998 3.69999997 3.74199997 3.78499997
+[controller_lazer-4]  3.82899997 3.87399997 3.91899997][0m
+[controller_lazer-4] [0m[INFO] [1705929153.400305146] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 0.18661904618853614[0m
+[servo-3] [INFO] [1705929153.403643701] [drive_node]: subscribe servo throtle: 0.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929153.405932409] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929153.409629566] [drive_node]: set_accel: 0.0 [360.0]
+[controller_lazer-4] [0m[INFO] [1705929153.515014666] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.517614200] [controller_lazer_node]: [0.    0.355 0.348 0.339 0.334 0.33  0.324 0.319 0.314 0.312 0.308 0.303
+[controller_lazer-4]  0.299 0.    0.294 0.29  0.286 0.283 0.282 0.28  0.278 0.275 0.274 0.272
+[controller_lazer-4]  0.272 0.271 0.272 0.273 0.275 0.275 0.276 0.279 0.281 0.    0.286 0.287
+[controller_lazer-4]  0.289 0.29  0.292 0.294 0.295 0.299 0.302 0.303 0.306 0.309 0.    0.318
+[controller_lazer-4]  0.    0.321 0.325 0.328 0.332 0.335 0.338 0.34  0.345 0.349 0.358 0.366
+[controller_lazer-4]  0.381 0.389 0.398 0.405 0.414][0m
+[controller_lazer-4] [0m[INFO] [1705929153.520318880] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.522924600] [controller_lazer_node]: [5.87799999 6.153      6.072      5.99600002 5.92900005 5.86600006
+[controller_lazer-4]  5.80800006 5.75700006 5.71300006 5.67400005 5.63800004 5.60900006
+[controller_lazer-4]  5.58700004 5.28800005 5.57400006 5.56700006 5.56600007 5.57000005
+[controller_lazer-4]  5.57900006 5.59100005 5.60600004 5.62700003 5.65400001 5.68300003
+[controller_lazer-4]  5.71700001 5.75399998 5.48299998 5.52899995 5.25599995 5.30199996
+[controller_lazer-4]  5.35199994 5.40399995 5.45699993 5.51099995 5.84899995 5.90299994
+[controller_lazer-4]  5.96099994 6.02099994 6.08899996 6.16299996 6.24999997 6.34399998
+[controller_lazer-4]  6.44299999 6.546      6.65700001][0m
+[controller_lazer-4] [0m[INFO] [1705929153.525288380] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 0.3170000002497718[0m
+[servo-3] [INFO] [1705929153.528540511] [drive_node]: subscribe servo throtle: 2.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929153.530840755] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929153.534593468] [drive_node]: set_accel: 2.0 [350.0]
+[controller_lazer-4] [0m[INFO] [1705929153.638252495] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.641782342] [controller_lazer_node]: [0.      0.      1.432   1.476   1.522   1.572   1.621   1.681   1.741
+[controller_lazer-4]  1.807   1.91875 2.11975 2.161   2.152   2.077   0.      2.21275 2.08775
+[controller_lazer-4]  2.114   2.166   2.174   0.      2.138   2.13    2.133   2.171   0.
+[controller_lazer-4]  1.85975 1.855   1.832   1.826   1.826   1.825   0.      2.09975 2.25575
+[controller_lazer-4]  2.266   2.291   2.295   2.311   2.358   2.373   2.365   2.09275 0.
+[controller_lazer-4]  1.85675 1.65475 1.48575 1.35675 1.24975 1.15075 1.07075 0.99875 0.93275
+[controller_lazer-4]  0.87775 0.82675 0.      0.78375 0.74375 0.70875 0.67475 0.64575 0.618
+[controller_lazer-4]  0.594   0.571  ][0m
+[controller_lazer-4] [0m[INFO] [1705929153.645130692] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.648452025] [controller_lazer_node]: [34.03499997 34.03499997 36.17299998 36.87100005 37.528      38.17700005
+[controller_lazer-4]  36.60500002 36.84375    37.01775002 37.10874999 37.12774992 37.03499985
+[controller_lazer-4]  36.74024987 34.57924986 34.52699995 34.70574999 36.97175002 37.04999995
+[controller_lazer-4]  37.25725007 37.4542501  37.64625025 37.84525013 40.21025014 40.1650002
+[controller_lazer-4]  38.03500009 37.7587502  37.24250019 38.72825015 38.22525012 37.62000012
+[controller_lazer-4]  36.93875015 36.18350017 35.35625017 34.46400011 35.34175009 34.06875002
+[controller_lazer-4]  31.81300008 30.33075005 28.78350013 27.19725007 25.56099993 23.84874988
+[controller_lazer-4]  22.09374994 20.32274991 18.80099982][0m
+[controller_lazer-4] [0m[INFO] [1705929153.652199386] [controller_lazer_node]: 最も遠い点の角度: 0.8687257841183981度, 距離: 1.9147738161541166[0m
+[servo-3] [INFO] [1705929153.658504596] [drive_node]: subscribe servo throtle: 3.0, steering: 0.8687257841183981
+[servo-3] [INFO] [1705929153.662244642] [drive_node]: set_angle: 0.8687257841183981 [347.10424738627205]
+[servo-3] [INFO] [1705929153.668178601] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929153.769523106] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.772659036] [controller_lazer_node]: [0.      1.418   1.458   1.504   1.552   1.602   1.66    1.719   1.784
+[controller_lazer-4]  1.83    2.32575 2.35    2.383   2.403   2.435   2.475   2.512   2.62675
+[controller_lazer-4]  2.646   2.615   2.626   2.567   2.68275 0.      0.      2.746   2.748
+[controller_lazer-4]  2.777   2.825   2.839   2.837   2.903   2.933   0.      2.994   3.048
+[controller_lazer-4]  0.      3.172   3.2     3.28    3.299   2.93475 2.45575 2.16875 1.91775
+[controller_lazer-4]  1.70375 1.51775 1.38975 1.28075 1.17575 1.08875 0.      1.01475 0.95075
+[controller_lazer-4]  0.88975 0.84075 0.79375 0.75175 0.71475 0.68175 0.65075 0.623   0.599
+[controller_lazer-4]  0.576   0.     ][0m
+[controller_lazer-4] [0m[INFO] [1705929153.775822539] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.778812750] [controller_lazer_node]: [41.92449975 44.49149966 45.75624967 44.29824972 42.79424977 43.98824978
+[controller_lazer-4]  45.13424969 46.25124967 47.35724974 48.41224968 49.41924953 49.99649954
+[controller_lazer-4]  50.57949972 48.19649982 48.78749967 49.40049982 46.92549992 47.58549976
+[controller_lazer-4]  48.15874982 48.79274988 49.4767499  49.78550005 49.67425013 49.16025019
+[controller_lazer-4]  51.07800019 52.7817502  51.55350018 50.19525027 48.69900036 47.04975033
+[controller_lazer-4]  45.29950035 42.46250045 40.57425034 38.59200025 39.48175025 37.32850027
+[controller_lazer-4]  35.07425016 35.82600015 33.36875021 30.85050017 28.22125018 25.54525018
+[controller_lazer-4]  23.20950007 21.32975006 19.16100001][0m
+[controller_lazer-4] [0m[INFO] [1705929153.781261510] [controller_lazer_node]: 最も遠い点の角度: 5.038610060150896度, 距離: 2.513416676294236[0m
+[servo-3] [INFO] [1705929153.784571528] [drive_node]: subscribe servo throtle: 4.0, steering: 5.038610060150896
+[servo-3] [INFO] [1705929153.786920383] [drive_node]: set_angle: 5.038610060150896 [333.20463313283034]
+[servo-3] [INFO] [1705929153.791934456] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929153.896018825] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929153.899611856] [controller_lazer_node]: [0.      1.478   1.525   1.573   1.626   1.68    1.741   1.808   2.30075
+[controller_lazer-4]  2.324   2.351   2.386   2.409   2.444   2.475   2.54    2.646   2.78275
+[controller_lazer-4]  2.92675 3.11175 3.27875 3.354   3.341   0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      4.082
+[controller_lazer-4]  0.      0.      0.      3.21775 2.60675 2.32975 2.04375 1.80875 1.61575
+[controller_lazer-4]  1.45375 1.32375 1.22275 0.      1.12775 1.04275 0.97575 0.91275 0.85575
+[controller_lazer-4]  0.80775 0.76475 0.72475 0.68975 0.65975 0.      0.62975 0.60275 0.579
+[controller_lazer-4]  0.558   0.538  ][0m
+[controller_lazer-4] [0m[INFO] [1705929153.901968506] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929153.904171587] [controller_lazer_node]: [45.40674925 48.76074934 50.62374938 49.0987494  47.52574944 45.8997494
+[controller_lazer-4]  44.21974945 42.47874939 40.67074943 38.36999941 36.04599953 33.69499946
+[controller_lazer-4]  31.30899954 28.89999962 26.45599961 28.06299949 25.52299953 22.87699962
+[controller_lazer-4]  20.09424973 20.38524985 19.88024998 18.9312501  17.62100005 16.08875
+[controller_lazer-4]  17.70449996 19.15824997 20.48199999 21.70474994 21.70474994 22.83249998
+[controller_lazer-4]  23.87524998 24.85100001 25.76375002 26.61950004 27.42725003 28.19200003
+[controller_lazer-4]  24.83475024 25.52450025 26.18425024 26.18425024 23.59625018 21.59225017
+[controller_lazer-4]  19.8415001  18.35575008 17.08500004][0m
+[controller_lazer-4] [0m[INFO] [1705929153.906580699] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.410654732159206[0m
+[servo-3] [INFO] [1705929153.909796886] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929153.912144926] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929153.915890972] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.016914300] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.019952436] [controller_lazer_node]: [0.      1.503   1.553   1.602   1.659   1.716   1.777   1.82    2.30175
+[controller_lazer-4]  2.324   2.351   2.386   2.409   2.447   2.482   2.588   2.694   2.83975
+[controller_lazer-4]  3.00275 3.18075 3.161   3.198   3.222   3.291   0.      0.      3.341
+[controller_lazer-4]  0.      0.      0.      0.      3.53175 0.      0.      0.      0.
+[controller_lazer-4]  3.70875 3.799   3.48775 2.94475 2.45775 2.19475 1.93475 1.71775 1.53875
+[controller_lazer-4]  1.39675 1.27175 1.17475 0.      1.08675 1.00875 0.94175 0.88175 0.83175
+[controller_lazer-4]  0.78575 0.74575 0.70875 0.67575 0.64475 0.      0.61675 0.591   0.568
+[controller_lazer-4]  0.547   0.528  ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.022897684] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.025445146] [controller_lazer_node]: [45.79699981 48.99499977 50.71399963 52.45199955 50.84999955 49.19099951
+[controller_lazer-4]  50.81599963 49.03899968 47.21899962 44.91724968 42.5932498  43.77399969
+[controller_lazer-4]  41.38799977 38.97899985 36.53199983 34.04999971 35.17074966 36.27574968
+[controller_lazer-4]  36.92374969 36.86574984 36.14275002 35.17650008 33.91325009 32.40900016
+[controller_lazer-4]  30.65675032 32.05350029 33.32525027 31.15900016 31.15900016 32.24575019
+[controller_lazer-4]  33.25450015 34.19625014 31.54625016 32.37800014 33.16375011 33.90950012
+[controller_lazer-4]  34.61825013 31.58525014 28.43100011 24.94325006 22.61524999 20.74849993
+[controller_lazer-4]  19.12174988 17.73399991 16.54424995][0m
+[controller_lazer-4] [0m[INFO] [1705929154.028595668] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.497714264052255[0m
+[servo-3] [INFO] [1705929154.032788500] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929154.035707509] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929154.040013524] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.138197050] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.141614400] [controller_lazer_node]: [0.      1.483   1.528   1.575   1.626   1.68    1.74    2.22575 2.233
+[controller_lazer-4]  2.264   2.282   2.307   2.339   2.37    2.403   2.489   2.593   2.72075
+[controller_lazer-4]  2.88875 3.03275 3.21175 3.41575 3.76375 4.094   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      4.115   0.
+[controller_lazer-4]  0.      0.      0.      3.37475 2.87075 2.42575 2.17175 1.91975 0.
+[controller_lazer-4]  1.71875 1.55175 1.40575 1.29275 1.19675 1.11075 1.03575 0.96975 0.91375
+[controller_lazer-4]  0.86175 0.81675 0.      0.77575 0.73775 0.70575 0.67575 0.647   0.621
+[controller_lazer-4]  0.598   0.578  ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.144703553] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.147510620] [controller_lazer_node]: [44.99175012 48.40750015 50.68825018 53.25425005 51.67925    50.05324996
+[controller_lazer-4]  48.37325001 46.63325    44.40750003 42.17449999 39.91050005 37.62849998
+[controller_lazer-4]  35.32150006 32.98250008 34.72749996 32.32449985 29.83549976 27.24249983
+[controller_lazer-4]  24.52174973 25.00774956 24.84574962 24.0597496  22.81574965 20.97174954
+[controller_lazer-4]  16.87774968 18.59649968 20.14824963 21.55399966 22.84674966 24.04349971
+[controller_lazer-4]  25.15424967 26.1899997  27.15974969 28.07349968 28.93524969 25.63699991
+[controller_lazer-4]  25.63699991 26.41274989 27.15049988 27.85624987 25.15724999 22.93350005
+[controller_lazer-4]  21.12875003 19.55499995 18.21324998][0m
+[controller_lazer-4] [0m[INFO] [1705929154.150479868] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.535916669028146[0m
+[servo-3] [INFO] [1705929154.154133713] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929154.156870688] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929154.161012299] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.259286694] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.261908228] [controller_lazer_node]: [0.      1.34    1.374   1.412   1.453   1.497   1.539   1.59    1.642
+[controller_lazer-4]  1.702   2.17875 2.183   2.215   2.231   2.26    2.288   2.313   2.347
+[controller_lazer-4]  2.43    2.527   0.      2.65275 2.81475 2.94975 3.11775 3.30875 3.63375
+[controller_lazer-4]  3.95775 4.062   0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      3.07575 2.73675
+[controller_lazer-4]  0.      2.32175 2.09075 1.88775 1.70475 1.55075 1.41675 1.31575 1.22475
+[controller_lazer-4]  1.13975 1.06875 1.00475 0.      0.95275 0.90075 0.85575 0.81675 0.78075
+[controller_lazer-4]  0.74675 0.716  ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.264701092] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.267426864] [controller_lazer_node]: [36.52174985 39.17449987 40.64924979 42.22499979 43.93074977 45.78649974
+[controller_lazer-4]  47.92324972 50.34199977 52.81399953 51.17199957 49.46999955 47.29124951
+[controller_lazer-4]  45.10824943 42.89324951 40.66224957 38.40224957 36.11424947 33.8012495
+[controller_lazer-4]  31.45424962 29.02424955 26.4972496  26.4972496  23.84449959 24.10549974
+[controller_lazer-4]  23.89249969 20.77474976 19.78774977 18.24474978 16.17474973 13.81749988
+[controller_lazer-4]  15.36824989 16.78499985 18.10074985 19.32549989 20.4652499  21.53399992
+[controller_lazer-4]  22.53874993 22.53874993 23.49149996 24.39224994 25.24799997 26.06474996
+[controller_lazer-4]  26.84549993 27.59224993 25.23249984][0m
+[controller_lazer-4] [0m[INFO] [1705929154.270276671] [controller_lazer_node]: 最も遠い点の角度: -18.59073417069993度, 距離: 2.5149523587453935[0m
+[servo-3] [INFO] [1705929154.274133492] [drive_node]: subscribe servo throtle: 4.0, steering: -18.59073417069993
+[servo-3] [INFO] [1705929154.276634991] [drive_node]: set_angle: -18.59073417069993 [411.9691139023331]
+[servo-3] [INFO] [1705929154.280954728] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.378560508] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.381106581] [controller_lazer_node]: [0.      0.      1.075   1.096   1.117   1.139   1.163   1.189   1.215
+[controller_lazer-4]  1.244   1.276   1.31    1.342   1.385   1.424   1.47    1.52    1.571
+[controller_lazer-4]  2.05175 2.052   2.072   2.089   2.116   2.14    2.17    2.197   2.239
+[controller_lazer-4]  2.33    2.43575 2.57475 2.71775 2.86875 3.03175 0.      3.55175 3.629
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      3.44175 3.453   3.558   3.569   3.561   3.558   3.32175 2.98075
+[controller_lazer-4]  2.58675 2.28175 2.09175 1.92275 1.77775 1.63575 1.52275 0.      1.42175
+[controller_lazer-4]  1.32875 1.25775][0m
+[controller_lazer-4] [0m[INFO] [1705929154.383998702] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.386593921] [controller_lazer_node]: [26.71175003 28.80075002 30.91674995 31.98175001 33.05575013 34.13575017
+[controller_lazer-4]  35.2357502  36.40275013 37.64950013 39.00925004 40.48300016 42.07575023
+[controller_lazer-4]  43.79750025 42.45550025 44.6222502  46.82725012 45.35725009 43.83725011
+[controller_lazer-4]  42.26625013 40.21450019 38.16250014 36.09050012 34.00150013 31.88550019
+[controller_lazer-4]  29.74550009 27.57550001 28.82025003 30.03425002 31.26225019 32.39550018
+[controller_lazer-4]  33.38175035 34.22200036 34.67500019 34.62400031 37.21075034 35.94075036
+[controller_lazer-4]  34.40350032 36.32625031 38.10400033 39.73975039 41.26250041 41.26250041
+[controller_lazer-4]  42.68425035 44.01300037 45.2707504 ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.389395025] [controller_lazer_node]: 最も遠い点の角度: -8.861004193290764度, 距離: 2.2298690534773327[0m
+[servo-3] [INFO] [1705929154.393232921] [drive_node]: subscribe servo throtle: 4.0, steering: -8.861004193290764
+[servo-3] [INFO] [1705929154.395970230] [drive_node]: set_angle: -8.861004193290764 [379.5366806443026]
+[servo-3] [INFO] [1705929154.400133193] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.504782982] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.508356772] [controller_lazer_node]: [0.      0.947   0.959   0.972   0.988   1.005   1.022   1.039   1.06
+[controller_lazer-4]  1.081   1.102   1.127   1.153   1.181   1.211   1.242   1.277   1.312
+[controller_lazer-4]  1.352   1.395   1.44    1.491   1.97375 1.976   1.995   2.009   2.036
+[controller_lazer-4]  2.063   2.088   2.114   2.145   2.221   2.31875 0.      2.44875 2.58175
+[controller_lazer-4]  2.72475 2.87475 3.06675 3.39075 3.75375 0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      3.787   3.779   3.783   3.911
+[controller_lazer-4]  3.922   0.      3.866   3.20575 2.91175 2.58875 2.29375 0.      2.12675
+[controller_lazer-4]  1.95975 1.82975][0m
+[controller_lazer-4] [0m[INFO] [1705929154.510720368] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.512932911] [controller_lazer_node]: [22.86499983 24.35599989 25.38274986 26.39974982 27.42274982 28.4437499
+[controller_lazer-4]  29.47474992 30.51574993 31.56474996 32.6187501  33.68275011 34.80175006
+[controller_lazer-4]  35.99349999 34.8405     36.10825002 37.47899997 38.96175003 40.55949998
+[controller_lazer-4]  42.31424999 44.35299993 46.71175003 45.27174997 43.78074992 41.80699992
+[controller_lazer-4]  39.83099997 37.83599997 35.8269999  33.79099989 31.72799993 29.63999987
+[controller_lazer-4]  31.31299973 32.94699979 34.50899982 36.10124993 40.02324986 37.57449985
+[controller_lazer-4]  38.85874987 39.33974981 39.37674999 38.89874983 37.80174994 34.04799986
+[controller_lazer-4]  36.17474985 38.13449991 39.96424985][0m
+[controller_lazer-4] [0m[INFO] [1705929154.515348912] [controller_lazer_node]: 最も遠い点の角度: -1.9111970665699343度, 距離: 2.2243690490722656[0m
+[servo-3] [INFO] [1705929154.518638802] [drive_node]: subscribe servo throtle: 4.0, steering: -1.9111970665699343
+[servo-3] [INFO] [1705929154.520866511] [drive_node]: set_angle: -1.9111970665699343 [356.37065688856643]
+[servo-3] [INFO] [1705929154.524537318] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.631258302] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.633941705] [controller_lazer_node]: [0.      0.758   0.      0.764   0.771   0.778   0.787   0.796   0.805
+[controller_lazer-4]  0.814   0.826   0.836   0.848   0.862   0.875   0.89    0.905   0.923
+[controller_lazer-4]  0.941   0.961   0.98    1.003   1.027   1.053   1.08    1.109   1.142
+[controller_lazer-4]  1.176   1.215   1.255   1.3     1.346   1.81075 0.      1.842   1.864
+[controller_lazer-4]  1.88    1.907   1.931   1.96    1.994   2.058   2.15175 2.27875 2.41875
+[controller_lazer-4]  2.58475 2.75175 2.91975 3.29375 3.4     0.      3.517   0.      0.
+[controller_lazer-4]  0.      0.      0.      3.438   0.      0.      3.309   3.315   3.419
+[controller_lazer-4]  0.      3.43   ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.636710032] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.639259586] [controller_lazer_node]: [16.12       17.12300003 17.39199996 18.44499993 18.76099998 19.09899992
+[controller_lazer-4]  19.46299988 19.85199988 20.27099991 20.7209999  21.20699984 21.72699982
+[controller_lazer-4]  22.7017498  21.85374981 22.83374983 23.82274979 24.8127498  25.81474978
+[controller_lazer-4]  26.82274979 27.84174985 28.87474978 29.95274985 31.10149992 32.35324991
+[controller_lazer-4]  33.71899998 35.22374988 36.8664999  38.64424992 40.76199996 42.94700003
+[controller_lazer-4]  41.69200003 43.90900004 42.56300008 40.75225008 40.75225008 38.91025007
+[controller_lazer-4]  37.0462501  38.60425007 36.69725013 34.76625013 36.11525011 37.43625021
+[controller_lazer-4]  38.79725003 36.64549994 37.79675007][0m
+[controller_lazer-4] [0m[INFO] [1705929154.641571052] [controller_lazer_node]: 最も遠い点の角度: 13.378378612215894度, 距離: 2.0909047637666975[0m
+[servo-3] [INFO] [1705929154.644819350] [drive_node]: subscribe servo throtle: 4.0, steering: 13.378378612215894
+[servo-3] [INFO] [1705929154.647118039] [drive_node]: set_angle: 13.378378612215894 [305.405404625947]
+[servo-3] [INFO] [1705929154.650849882] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929154.753628232] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.757911006] [controller_lazer_node]: [0.      0.684   0.689   0.694   0.7     0.706   0.713   0.72    0.728
+[controller_lazer-4]  0.736   0.745   0.754   0.765   0.775   0.785   0.798   0.811   0.824
+[controller_lazer-4]  0.84    0.855   0.873   0.89    0.909   0.931   0.953   0.976   1.003
+[controller_lazer-4]  1.031   1.06    1.092   1.129   1.169   1.209   0.      1.72375 1.736
+[controller_lazer-4]  1.758   1.776   1.799   1.82    1.843   1.875   1.902   0.      1.94
+[controller_lazer-4]  2.04075 2.16675 2.30075 2.45775 2.61675 2.79575 3.06275 3.52275 0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      3.83175
+[controller_lazer-4]  3.806   0.     ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.761593924] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.764575265] [controller_lazer_node]: [15.19499999 16.08499998 16.30999994 16.55199993 16.81099993 17.08699995
+[controller_lazer-4]  17.384      17.70200002 18.04199994 18.40599996 18.79899991 19.22299993
+[controller_lazer-4]  19.67799991 18.91299993 19.86174995 20.81274986 21.7727499  22.73774993
+[controller_lazer-4]  23.71274996 24.69275004 25.68075007 26.68275005 27.69475001 26.78575003
+[controller_lazer-4]  27.79475009 28.88250011 30.07325006 31.37100005 32.79775012 34.35450017
+[controller_lazer-4]  36.05825007 37.99200022 40.34575009 39.1367501  39.1367501  37.41300011
+[controller_lazer-4]  35.67700016 33.91900015 32.14300013 30.3440001  28.52400005 26.68099999
+[controller_lazer-4]  28.63774991 30.54174995 30.54174995][0m
+[controller_lazer-4] [0m[INFO] [1705929154.768384679] [controller_lazer_node]: 最も遠い点の角度: 14.768340037560058度, 距離: 1.9212261949266707[0m
+[servo-3] [INFO] [1705929154.773417752] [drive_node]: subscribe servo throtle: 3.0, steering: 14.768340037560058
+[servo-3] [INFO] [1705929154.776277762] [drive_node]: set_angle: 14.768340037560058 [300.7721998747998]
+[servo-3] [INFO] [1705929154.781062970] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929154.883655324] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929154.887175338] [controller_lazer_node]: [0.      0.58    0.584   0.589   0.593   0.598   0.603   0.609   0.617
+[controller_lazer-4]  0.623   0.63    0.638   0.647   0.656   0.666   0.676   0.686   0.698
+[controller_lazer-4]  0.711   0.724   0.737   0.752   0.768   0.787   0.803   0.823   0.845
+[controller_lazer-4]  0.868   0.893   0.919   0.949   0.98    1.015   0.      1.092   1.55075
+[controller_lazer-4]  1.564   1.583   1.597   1.617   1.643   1.667   1.69    1.718   1.745
+[controller_lazer-4]  1.82375 1.92775 2.05875 2.21075 2.37875 2.55575 2.76075 3.29875 3.67175
+[controller_lazer-4]  0.      4.958   0.      0.      6.24    6.296   6.375   6.373   6.275
+[controller_lazer-4]  6.19    6.01   ][0m
+[controller_lazer-4] [0m[INFO] [1705929154.890000145] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929154.892204688] [controller_lazer_node]: [12.86500001 13.61699998 13.80500001 14.00800002 14.222      14.45200002
+[controller_lazer-4]  14.69900006 14.96400005 15.24800003 15.55000007 15.87600005 16.22600007
+[controller_lazer-4]  16.60300004 15.95600003 16.39200002 17.27675003 18.16475004 19.06174999
+[controller_lazer-4]  19.96074998 20.86674994 21.78574997 22.71575004 23.65375012 24.60375017
+[controller_lazer-4]  25.56175017 26.58250022 27.6872502  28.90100008 30.24375021 31.72950029
+[controller_lazer-4]  33.36625016 35.17800021 37.49675012 40.1535002  40.1535002  44.01950037
+[controller_lazer-4]  42.46875036 40.90475035 45.56175017 50.26075017 55.01875019 59.74875033
+[controller_lazer-4]  64.35675037 68.85675037 73.14875054][0m
+[controller_lazer-4] [0m[INFO] [1705929154.894639282] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 3.483273835409255[0m
+[servo-3] [INFO] [1705929154.897908875] [drive_node]: subscribe servo throtle: 4.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929154.900195028] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929154.903956573] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.012231134] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.014890760] [controller_lazer_node]: [0.      0.559   0.564   0.568   0.574   0.58    0.587   0.593   0.601
+[controller_lazer-4]  0.      0.608   0.617   0.626   0.636   0.646   0.657   0.669   0.682
+[controller_lazer-4]  0.694   0.708   0.723   0.739   0.756   0.774   0.795   0.815   0.838
+[controller_lazer-4]  0.864   0.89    0.921   0.953   1.47275 1.463   0.      1.49    1.508
+[controller_lazer-4]  1.524   1.545   1.568   1.594   1.619   1.644   1.709   1.80475 1.92575
+[controller_lazer-4]  2.06175 2.22975 2.40375 2.60575 3.01575 3.43175 3.90675 0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.     ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.017600551] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.020309028] [controller_lazer_node]: [11.89200002 12.63100004 12.82800001 13.03799999 13.26499999 13.50599998
+[controller_lazer-4]  13.764      14.04100001 14.338      14.65799999 15.611      16.47574997
+[controller_lazer-4]  17.32175004 16.69575006 17.54975009 18.41175008 19.27875012 20.15475005
+[controller_lazer-4]  21.04075003 21.94075    22.85174996 23.77275002 24.74274999 25.79149997
+[controller_lazer-4]  26.94325    28.20999992 29.62474984 31.19049978 32.93224984 35.05799979
+[controller_lazer-4]  37.56874985 40.5224998  39.04974985 37.58674979 37.58674979 36.09674978
+[controller_lazer-4]  34.58874977 33.06474972 31.51974976 29.9517498  28.35774982 26.73874986
+[controller_lazer-4]  25.09474981 23.38574982 21.58099985][0m
+[controller_lazer-4] [0m[INFO] [1705929155.023198000] [controller_lazer_node]: 最も遠い点の角度: 13.378378612215894度, 距離: 1.929642847606114[0m
+[servo-3] [INFO] [1705929155.027045489] [drive_node]: subscribe servo throtle: 3.0, steering: 13.378378612215894
+[servo-3] [INFO] [1705929155.030242769] [drive_node]: set_angle: 13.378378612215894 [305.405404625947]
+[servo-3] [INFO] [1705929155.034716336] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929155.134261764] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.138463819] [controller_lazer_node]: [0.      0.588   0.597   0.606   0.616   0.627   0.638   0.649   0.661
+[controller_lazer-4]  0.675   0.689   0.704   0.72    0.737   0.756   0.775   0.797   0.82
+[controller_lazer-4]  0.843   1.29575 1.295   1.292   1.295   1.306   1.32    1.336   1.352
+[controller_lazer-4]  1.37    1.389   1.408   1.43    1.451   1.496   0.      1.67075 1.78075
+[controller_lazer-4]  1.90575 2.05175 2.20775 2.38375 2.69675 3.20075 3.63375 0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      5.64    5.626
+[controller_lazer-4]  5.535   5.362   4.923   4.104   3.78675 3.43675 3.08675 2.86975 2.67775
+[controller_lazer-4]  2.52075 0.     ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.141535806] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.144561775] [controller_lazer_node]: [15.08874995 16.38075    17.08774996 17.79674995 18.51075    19.23074996
+[controller_lazer-4]  19.95574999 20.68774998 21.42775005 22.17475003 22.92974997 23.69174993
+[controller_lazer-4]  24.48374999 23.76374996 24.69749999 25.72225004 26.8530001  28.10775006
+[controller_lazer-4]  29.49550015 31.03625011 32.43725002 34.34300017 36.68475008 35.38975012
+[controller_lazer-4]  34.08375013 32.76375008 31.42775011 30.07575011 28.70575011 27.31675005
+[controller_lazer-4]  25.90875006 24.47875011 28.66775    32.79774988 38.33274972 42.02399969
+[controller_lazer-4]  45.16624951 47.36449957 49.0994997  50.32849956 51.03149962 51.20449972
+[controller_lazer-4]  50.68149972 49.5684998  49.5684998 ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.147802611] [controller_lazer_node]: 最も遠い点の角度: 27.277992865657556度, 距離: 2.4383095105489097[0m
+[servo-3] [INFO] [1705929155.151496787] [drive_node]: subscribe servo throtle: 4.0, steering: 27.277992865657556
+[servo-3] [INFO] [1705929155.154231745] [drive_node]: set_angle: 27.277992865657556 [259.0733571144748]
+[servo-3] [INFO] [1705929155.158281099] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.256626017] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.259260551] [controller_lazer_node]: [0.      0.681   0.693   0.708   0.723   0.738   0.755   0.773   1.2435
+[controller_lazer-4]  1.242   1.236   1.23    1.221   1.223   1.232   1.242   1.254   1.266
+[controller_lazer-4]  1.28    1.295   1.311   1.327   1.35    1.367   1.402   1.46475 1.54675
+[controller_lazer-4]  1.64775 1.74975 1.86275 1.99775 2.14275 2.30575 0.      3.08775 3.50275
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      5.138   5.121   4.467   3.90475 3.54575
+[controller_lazer-4]  3.22475 2.88275 2.71675 2.56375 2.40675 2.27775 2.15875 2.04375 1.94675
+[controller_lazer-4]  1.85275 1.77075][0m
+[controller_lazer-4] [0m[INFO] [1705929155.262207467] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.264759465] [controller_lazer_node]: [21.3464998  22.67349982 23.34249985 24.01649982 24.71049976 25.45224983
+[controller_lazer-4]  26.2609998  27.15374982 28.13049984 28.7497499  29.50549996 30.41225004
+[controller_lazer-4]  31.48799992 30.26699996 32.13174987 34.40249979 33.16049981 31.90649986
+[controller_lazer-4]  30.64049983 29.36049986 28.0654999  26.75449991 25.42749989 24.07749987
+[controller_lazer-4]  22.71049988 21.30849993 19.84374988 18.29699993 16.64924991 20.0374999
+[controller_lazer-4]  23.29574966 25.76499963 27.52699971 28.76699972 31.99174976 31.78674984
+[controller_lazer-4]  31.00074983 33.56449986 35.97124982 38.24899983 40.40774989 42.45149994
+[controller_lazer-4]  44.39824998 46.25099993 48.02174997][0m
+[controller_lazer-4] [0m[INFO] [1705929155.267585254] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 2.286749998728434[0m
+[servo-3] [INFO] [1705929155.271377966] [drive_node]: subscribe servo throtle: 4.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929155.274134164] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929155.278432697] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.376102686] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.378656036] [controller_lazer_node]: [0.      1.122   1.13    1.137   1.146   1.157   1.166   1.177   1.189
+[controller_lazer-4]  1.202   1.215   1.23    1.272   1.321   1.38075 1.45175 1.53275 1.61675
+[controller_lazer-4]  1.71475 1.80975 1.92175 2.05175 2.18875 2.50775 2.543   2.57    2.624
+[controller_lazer-4]  2.692   0.      2.756   0.      2.87    2.988   0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      3.52875 3.56    0.      3.81275 3.692   3.43275
+[controller_lazer-4]  3.08875 2.80375 2.56775 2.44575 2.29875 2.17975 2.05775 1.96175 1.86175
+[controller_lazer-4]  1.781   1.69975 0.      1.62575 1.563   1.511   1.46    1.419   1.376
+[controller_lazer-4]  1.34    1.303  ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.381391253] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.383964918] [controller_lazer_node]: [26.89224994 28.94399989 30.01074994 31.38849998 32.79449999 34.2184999
+[controller_lazer-4]  35.68550003 37.21149993 36.03449988 37.60149992 36.39949989 38.05449975
+[controller_lazer-4]  39.81249964 38.54049969 37.21949971 35.83874977 34.38699973 32.85424972
+[controller_lazer-4]  31.23749971 33.05149961 34.80174959 32.87999964 34.64099979 36.14424968
+[controller_lazer-4]  37.06924963 37.61499953 37.84874964 37.79249954 37.54624963 39.84499955
+[controller_lazer-4]  39.26874948 41.32649946 40.41824961 39.2919997  41.07299972 42.77274966
+[controller_lazer-4]  42.77274966 44.39849961 45.96149957 47.47249961 45.4037497  43.26274979
+[controller_lazer-4]  44.63874984 42.16599977 39.77699983][0m
+[controller_lazer-4] [0m[INFO] [1705929155.386973110] [controller_lazer_node]: 最も遠い点の角度: 24.498070014969223度, 距離: 2.2605952194758823[0m
+[servo-3] [INFO] [1705929155.390688861] [drive_node]: subscribe servo throtle: 4.0, steering: 24.498070014969223
+[servo-3] [INFO] [1705929155.393475835] [drive_node]: set_angle: 24.498070014969223 [268.3397666167693]
+[servo-3] [INFO] [1705929155.397426599] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.502375111] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.505565910] [controller_lazer_node]: [0.      1.172   1.194   1.228   1.269   1.319   1.38075 1.44575 1.51175
+[controller_lazer-4]  1.58775 1.67075 1.75275 1.85575 1.96175 2.08075 2.21775 2.25    2.256
+[controller_lazer-4]  0.      2.263   2.299   2.31    0.      2.329   2.362   2.411   2.424
+[controller_lazer-4]  2.478   2.485   2.529   2.54    2.499   2.496   0.      2.75875 2.821
+[controller_lazer-4]  2.832   2.884   2.943   2.80975 2.51475 2.36975 2.23275 2.11575 2.00275
+[controller_lazer-4]  1.89775 1.80375 1.71675 0.      1.644   1.57375 1.507   1.448   1.399
+[controller_lazer-4]  1.355   1.314   1.276   1.243   1.209   1.18    1.153   1.126   1.102
+[controller_lazer-4]  1.078   1.057  ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.508390643] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.510632649] [controller_lazer_node]: [32.71550024 35.02550018 33.85350013 34.98850012 36.12250006 37.26450002
+[controller_lazer-4]  38.36950004 39.46675003 40.50599992 41.52324998 42.47549999 43.30375004
+[controller_lazer-4]  44.04700005 42.19125009 42.98825002 43.72850013 44.34275007 44.97675014
+[controller_lazer-4]  45.66375017 48.47350025 48.72525024 48.79600024 48.71875024 50.83450031
+[controller_lazer-4]  50.50825024 50.04400027 49.43675029 48.72950029 46.25150037 45.41050053
+[controller_lazer-4]  44.4552505  43.42225051 42.37125039 41.27425039 42.62925041 41.18450046
+[controller_lazer-4]  39.63950038 38.05050039 36.37550032 34.61250019 32.95575011 31.56700015
+[controller_lazer-4]  30.29925013 29.14450014 28.0857501 ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.513000466] [controller_lazer_node]: 最も遠い点の角度: 2.2586872094625643度, 距離: 2.420690491085961[0m
+[servo-3] [INFO] [1705929155.516313985] [drive_node]: subscribe servo throtle: 4.0, steering: 2.2586872094625643
+[servo-3] [INFO] [1705929155.518600749] [drive_node]: set_angle: 2.2586872094625643 [342.4710426351248]
+[servo-3] [INFO] [1705929155.522426737] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.629725530] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.631979331] [controller_lazer_node]: [0.      1.923   1.942   1.956   1.977   1.971   0.      2.032   2.052
+[controller_lazer-4]  2.07    2.081   2.117   2.122   2.163   2.196   2.242   2.269   2.295
+[controller_lazer-4]  2.295   2.311   2.361   2.41    2.422   2.461   2.479   2.509   2.34475
+[controller_lazer-4]  2.17275 2.02275 1.89775 1.78975 0.      1.68975 0.      1.51975 1.44275
+[controller_lazer-4]  1.37675 1.31275 1.25675 1.209   1.168   1.135   1.1     1.066   1.037
+[controller_lazer-4]  1.008   0.984   0.961   0.939   0.918   0.      0.899   0.882   0.864
+[controller_lazer-4]  0.849   0.835   0.822   0.809   0.797   0.785   0.775   0.765   0.756
+[controller_lazer-4]  0.747   0.739  ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.634390352] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.636565062] [controller_lazer_node]: [40.37500083 42.78500092 43.28400087 43.80300081 44.32600093 44.85800099
+[controller_lazer-4]  45.23175097 47.40450096 47.3952508  47.24100077 46.96075082 44.87975073
+[controller_lazer-4]  44.45250058 42.3305006  41.68725049 40.93400037 40.06875026 39.11250019
+[controller_lazer-4]  38.0742501  36.98825002 35.84524989 34.61924982 33.30924976 31.95324981
+[controller_lazer-4]  30.52924979 29.05824971 27.53324968 26.14949977 24.91574979 23.81099987
+[controller_lazer-4]  21.91324985 21.02249986 21.90449989 21.07874995 21.92774993 21.24299991
+[controller_lazer-4]  20.62224996 20.05449998 19.53874999 19.06700003 18.63300002 18.23000002
+[controller_lazer-4]  17.85100001 17.49799997 17.171     ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.638924176] [controller_lazer_node]: 最も遠い点の角度: -19.980695596044093度, 距離: 2.25735718863351[0m
+[servo-3] [INFO] [1705929155.642190789] [drive_node]: subscribe servo throtle: 4.0, steering: -19.980695596044093
+[servo-3] [INFO] [1705929155.644504385] [drive_node]: set_angle: -19.980695596044093 [416.6023186534803]
+[servo-3] [INFO] [1705929155.648271116] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.755757145] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.758098926] [controller_lazer_node]: [0.      2.455   2.487   2.492   2.494   2.543   2.534   2.541   2.544
+[controller_lazer-4]  2.544   2.546   0.      2.548   2.551   2.553   2.552   2.554   2.582
+[controller_lazer-4]  2.594   2.559   2.27175 2.09075 1.95675 1.81675 1.70275 1.60075 1.51275
+[controller_lazer-4]  1.42875 1.35075 0.      1.28175 1.21875 1.16375 0.      1.077   1.041
+[controller_lazer-4]  1.007   0.978   0.95    0.922   0.898   0.877   0.855   0.837   0.818
+[controller_lazer-4]  0.      0.8     0.785   0.768   0.755   0.742   0.73    0.719   0.707
+[controller_lazer-4]  0.697   0.688   0.679   0.67    0.663   0.656   0.649   0.644   0.638
+[controller_lazer-4]  0.      0.633  ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.760315877] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.762423496] [controller_lazer_node]: [47.94474983 50.03549981 49.53724992 48.86699998 48.07774985 47.18449986
+[controller_lazer-4]  46.15424991 45.04900002 43.8587501  41.31475019 40.05250025 38.72525024
+[controller_lazer-4]  39.8890003  37.3410002  35.8670001  34.35500014 32.81000006 31.23400015
+[controller_lazer-4]  29.60200012 27.93000001 26.26899999 24.87424999 23.63850003 22.51875001
+[controller_lazer-4]  21.51999998 19.81725001 19.01650006 18.28875005 17.62800002 17.03225005
+[controller_lazer-4]  17.77425003 17.22250009 16.72275007 16.26600003 16.96300006 16.57400006
+[controller_lazer-4]  16.21200007 15.87500012 15.56000012 15.26600015 14.99300015 14.73900014
+[controller_lazer-4]  14.50000018 13.64500016 13.44100016][0m
+[controller_lazer-4] [0m[INFO] [1705929155.764450451] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 2.382642848151071[0m
+[servo-3] [INFO] [1705929155.767806358] [drive_node]: subscribe servo throtle: 4.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929155.770260655] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929155.774095236] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929155.873548814] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929155.876526748] [controller_lazer_node]: [0.      4.092   0.      0.      0.      0.      0.      0.      5.119
+[controller_lazer-4]  0.      0.      0.      4.783   4.696   4.554   4.486   3.97175 0.
+[controller_lazer-4]  3.01375 2.67675 2.32675 1.97775 1.83875 1.71175 1.58975 1.48275 1.38775
+[controller_lazer-4]  1.30475 0.      1.23375 1.16475 1.10275 1.05075 0.      0.95175 0.916
+[controller_lazer-4]  0.882   0.855   0.829   0.804   0.      0.782   0.762   0.742   0.724
+[controller_lazer-4]  0.706   0.69    0.676   0.662   0.649   0.636   0.625   0.615   0.
+[controller_lazer-4]  0.605   0.595   0.586   0.579   0.571   0.564   0.558   0.551   0.546
+[controller_lazer-4]  0.541   0.537  ][0m
+[controller_lazer-4] [0m[INFO] [1705929155.879957542] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929155.882408080] [controller_lazer_node]: [39.7190001  41.69675004 39.44350004 41.15525007 42.74500012 44.22775018
+[controller_lazer-4]  45.61550021 46.92025018 46.92025018 43.03500021 44.19975019 45.30250013
+[controller_lazer-4]  46.35325015 41.57025015 37.82600003 34.18800014 30.58400011 27.46725011
+[controller_lazer-4]  28.2962501  26.08650005 23.4097501  21.86500007 20.64925015 19.55250013
+[controller_lazer-4]  18.56475008 17.68099999 16.88824993 16.1764999  15.53374994 16.18274993
+[controller_lazer-4]  15.58499992 15.04524994 14.5575     13.50674999 14.11175001 13.75500005
+[controller_lazer-4]  13.42500007 13.12200004 12.838      12.57300001 12.32700002 12.87800002
+[controller_lazer-4]  12.64200002 12.421      12.21600002][0m
+[controller_lazer-4] [0m[INFO] [1705929155.884886765] [controller_lazer_node]: 最も遠い点の角度: -19.980695596044093度, 距離: 2.2342976274944486[0m
+[servo-3] [INFO] [1705929155.888217802] [drive_node]: subscribe servo throtle: 4.0, steering: -19.980695596044093
+[servo-3] [INFO] [1705929155.890691062] [drive_node]: set_angle: -19.980695596044093 [416.6023186534803]
+[servo-3] [INFO] [1705929155.895112926] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.001172116] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.004498727] [controller_lazer_node]: [0.      2.65875 2.82175 2.99175 3.26275 3.51675 3.88375 0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      4.088   4.079   0.      0.      3.973   2.97375 2.70975 2.38175
+[controller_lazer-4]  2.02375 0.      1.82475 1.70775 1.59075 1.48375 0.      1.31075 1.23675
+[controller_lazer-4]  1.16775 1.11175 1.05975 1.00875 0.      0.967   0.926   0.88675 0.851
+[controller_lazer-4]  0.822   0.799   0.777   0.757   0.738   0.72    0.703   0.688   0.
+[controller_lazer-4]  0.673   0.66    0.647   0.635   0.623   0.613   0.603   0.594   0.585
+[controller_lazer-4]  0.578   0.57   ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.007623991] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.010245637] [controller_lazer_node]: [27.30249977 27.30249977 24.64374971 25.79499984 25.77699995 25.22399998
+[controller_lazer-4]  24.08899999 22.22900009 22.22900009 24.05375004 25.7615     27.35224998
+[controller_lazer-4]  28.83599997 28.83599997 30.14674997 31.38349998 32.55124998 33.66299999
+[controller_lazer-4]  34.72274995 35.73149991 31.64350009 28.5315001  29.4575001  30.34425008
+[controller_lazer-4]  27.22225004 25.07049996 23.15975004 21.55499995 20.28824991 21.02624989
+[controller_lazer-4]  19.92149997 18.91675001 18.01400006 16.53025007 17.20325005 16.55250007
+[controller_lazer-4]  15.96275008 15.43000007 14.94125009 14.4945001  14.08875012 14.68275011
+[controller_lazer-4]  14.30075008 13.95275009 13.6360001 ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.012991872] [controller_lazer_node]: 最も遠い点の角度: -3.3011584919141度, 距離: 1.701499995731172[0m
+[servo-3] [INFO] [1705929156.017093058] [drive_node]: subscribe servo throtle: 3.0, steering: -3.3011584919141
+[servo-3] [INFO] [1705929156.019829886] [drive_node]: set_angle: -3.3011584919141 [361.0038616397137]
+[servo-3] [INFO] [1705929156.024099791] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929156.121704621] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.124455226] [controller_lazer_node]: [0.      1.425   1.457   1.493   1.532   1.574   1.625   1.72275 1.80075
+[controller_lazer-4]  1.876   1.95975 2.05375 2.14975 2.27275 2.39475 2.52075 2.65175 2.83875
+[controller_lazer-4]  3.07475 3.34175 3.61575 0.      4.093   0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  3.414   3.341   3.305   3.221   2.73975 2.47175 2.22075 2.00675 1.77675
+[controller_lazer-4]  1.63275 1.55475 1.47175 0.      1.39275 1.31975 1.25875 1.20075 1.14575
+[controller_lazer-4]  1.098   1.054   1.013   0.978   0.943   0.913   0.884   0.858   0.
+[controller_lazer-4]  0.834   0.811  ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.127375958] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.130806993] [controller_lazer_node]: [43.37975001 43.37975001 46.04775    44.59074998 43.09774995 41.56575
+[controller_lazer-4]  39.99175    38.36675    36.64400005 34.84325004 32.96724999 31.00749993
+[controller_lazer-4]  28.9537499  26.8039999  24.53125    22.13649988 23.02974987 23.71899986
+[controller_lazer-4]  24.18525004 24.33150005 23.72950006 22.5855     24.8062501  22.72000027
+[controller_lazer-4]  24.49675024 26.12950027 27.68425024 29.15600026 29.15600026 30.54875028
+[controller_lazer-4]  31.86850023 33.12725019 34.32800019 35.47375023 36.57175028 37.6257503
+[controller_lazer-4]  38.63875031 36.20275027 33.8047502  31.41275012 29.07575017 27.19400024
+[controller_lazer-4]  24.72225022 23.33550012 22.13975   ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.134201695] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 2.1927499998183477[0m
+[servo-3] [INFO] [1705929156.138164421] [drive_node]: subscribe servo throtle: 4.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929156.140928860] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929156.144926475] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.244599184] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.247422658] [controller_lazer_node]: [0.      1.18    1.198   1.222   1.244   1.272   1.296   1.325   1.353
+[controller_lazer-4]  1.387   1.422   1.458   1.503   1.59175 1.66375 1.732   1.80775 1.88675
+[controller_lazer-4]  1.96975 2.07575 2.18375 2.30175 2.41975 2.54875 2.71375 2.687   2.681
+[controller_lazer-4]  2.671   2.659   0.      2.635   2.634   2.678   0.      2.701   2.754
+[controller_lazer-4]  2.76    2.767   2.61975 2.606   0.      2.608   2.615   2.677   2.74
+[controller_lazer-4]  2.771   2.833   2.817   2.63275 2.39475 2.17775 1.99075 1.81575 1.65775
+[controller_lazer-4]  1.55975 1.48175 1.41275 1.34575 1.28775 1.235   0.      1.185   1.14
+[controller_lazer-4]  1.098   1.06   ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.250751973] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.253986142] [controller_lazer_node]: [30.77125001 33.07299995 34.31274998 35.66349995 37.15524983 38.59824991
+[controller_lazer-4]  40.00724995 41.38224995 42.71624982 41.36324978 42.6112498  43.82324982
+[controller_lazer-4]  45.04324985 43.54024982 44.64949977 45.73974967 46.76774967 47.72699964
+[controller_lazer-4]  48.45999968 49.09624958 47.02049947 47.44474959 47.75799966 48.01524973
+[controller_lazer-4]  48.20649981 48.26374984 48.40974975 48.54574966 48.50749969 48.24324989
+[controller_lazer-4]  50.421      49.77674997 48.95849991 47.93824995 49.49799991 48.27874994
+[controller_lazer-4]  46.9375     45.52324998 44.04400003 42.65925002 40.05325007 41.23825002
+[controller_lazer-4]  39.77024996 38.25325    36.6362499 ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.256889448] [controller_lazer_node]: 最も遠い点の角度: 11.988417186871727度, 距離: 2.4010000001816523[0m
+[servo-3] [INFO] [1705929156.260514312] [drive_node]: subscribe servo throtle: 4.0, steering: 11.988417186871727
+[servo-3] [INFO] [1705929156.263287380] [drive_node]: set_angle: 11.988417186871727 [310.03860937709425]
+[servo-3] [INFO] [1705929156.267980516] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.366664655] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.369148562] [controller_lazer_node]: [0.      0.946   0.957   0.968   0.981   0.994   1.007   1.023   1.038
+[controller_lazer-4]  1.055   1.073   1.091   1.112   1.134   1.159   1.183   0.      1.211
+[controller_lazer-4]  1.239   1.27    1.34375 1.40175 1.46    1.519   1.583   1.65    1.72975
+[controller_lazer-4]  1.80875 1.89375 1.99775 2.11475 2.23175 2.33675 0.      2.78675 2.892
+[controller_lazer-4]  2.845   2.851   2.835   2.831   0.      2.783   2.808   2.781   2.775
+[controller_lazer-4]  2.75    2.738   2.739   2.727   2.619   2.655   2.684   2.669   0.
+[controller_lazer-4]  2.662   2.667   2.667   2.676   2.626   2.45875 2.29075 2.13175 1.98075
+[controller_lazer-4]  1.85075 1.73975][0m
+[controller_lazer-4] [0m[INFO] [1705929156.371876594] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.374511573] [controller_lazer_node]: [20.78474969 22.18649966 22.70049971 23.26249975 23.8774997  24.54649967
+[controller_lazer-4]  25.28224969 26.08399975 26.9547497  27.91449976 28.97424972 30.13299978
+[controller_lazer-4]  31.37874985 30.26674986 31.91949999 33.65249991 35.31449997 38.16550004
+[controller_lazer-4]  39.78950012 41.38150024 40.11150026 41.55075026 42.95700037 44.27800024
+[controller_lazer-4]  45.53400028 46.70100033 47.78900027 48.79825032 49.71650028 50.44175029
+[controller_lazer-4]  51.09900022 51.66825032 52.10550022 49.76875019 52.43075013 52.31100011
+[controller_lazer-4]  52.0860002  51.91700029 51.69200015 51.31575012 50.77550006 52.90725017
+[controller_lazer-4]  52.10500014 51.14775002 50.10650015][0m
+[controller_lazer-4] [0m[INFO] [1705929156.377280993] [controller_lazer_node]: 最も遠い点の角度: 27.277992865657556度, 距離: 2.51939286504473[0m
+[servo-3] [INFO] [1705929156.381213461] [drive_node]: subscribe servo throtle: 4.0, steering: 27.277992865657556
+[servo-3] [INFO] [1705929156.384121989] [drive_node]: set_angle: 27.277992865657556 [259.0733571144748]
+[servo-3] [INFO] [1705929156.388195861] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.492438598] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.495930373] [controller_lazer_node]: [0.      0.806   0.811   0.817   0.824   0.83    0.839   0.847   0.
+[controller_lazer-4]  0.856   0.865   0.875   0.885   0.897   0.91    0.924   0.94    0.954
+[controller_lazer-4]  0.97    0.988   1.008   1.028   1.049   1.071   1.095   1.123   1.152
+[controller_lazer-4]  1.22475 1.276   1.33275 1.385   1.44775 1.51275 0.      1.66375 1.74875
+[controller_lazer-4]  1.84875 1.95575 2.06275 2.18575 2.35875 2.58175 2.83675 3.08875 3.30075
+[controller_lazer-4]  0.      0.      4.125   4.125   0.      0.      0.      0.      0.
+[controller_lazer-4]  4.352   4.324   4.297   4.271   4.179   4.047   3.92    3.844   0.
+[controller_lazer-4]  3.703   3.36175][0m
+[controller_lazer-4] [0m[INFO] [1705929156.498362559] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.500572880] [controller_lazer_node]: [16.84600002 17.87400001 18.11700004 18.37700003 18.65500009 18.95400012
+[controller_lazer-4]  19.27600008 19.66175014 20.09075016 21.42350012 21.9525001  22.53525007
+[controller_lazer-4]  23.1730001  22.28800011 23.05475014 23.89350009 24.81825006 25.83400005
+[controller_lazer-4]  26.94275016 28.15850013 29.52925026 31.10300016 32.9117502  34.95150006
+[controller_lazer-4]  37.1812501  36.08625007 34.96325004 37.93625009 40.83650005 39.56050003
+[controller_lazer-4]  38.22775006 36.84275007 35.3950001  33.88225007 38.23425031 40.89450014
+[controller_lazer-4]  43.4427501  45.86500001 48.08824992 50.07249975 51.80674982 53.29199982
+[controller_lazer-4]  50.7102499  51.57649994 51.84949994][0m
+[controller_lazer-4] [0m[INFO] [1705929156.503101306] [controller_lazer_node]: 最も遠い点の角度: 27.277992865657556度, 距離: 2.537714276994978[0m
+[servo-3] [INFO] [1705929156.506459287] [drive_node]: subscribe servo throtle: 4.0, steering: 27.277992865657556
+[servo-3] [INFO] [1705929156.508786420] [drive_node]: set_angle: 27.277992865657556 [259.0733571144748]
+[servo-3] [INFO] [1705929156.512530059] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.618841250] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.621093496] [controller_lazer_node]: [0.      0.713   0.719   0.726   0.734   0.741   0.749   0.76    0.769
+[controller_lazer-4]  0.779   0.79    0.802   0.814   0.828   0.842   0.859   0.875   0.891
+[controller_lazer-4]  0.911   0.931   0.963   1.02175 1.063   1.101   1.145   1.191   1.24175
+[controller_lazer-4]  1.29575 1.35575 1.42575 1.49875 1.57675 1.66475 0.      1.88075 1.98075
+[controller_lazer-4]  2.15675 2.37975 2.62075 2.88175 3.12875 4.658   4.599   4.584   4.571
+[controller_lazer-4]  4.56    4.502   4.466   4.416   4.379   4.319   4.234   4.161   4.077
+[controller_lazer-4]  4.005   3.888   3.782   3.67    3.579   3.35875 3.07975 2.79475 2.53975
+[controller_lazer-4]  2.34075 2.22075][0m
+[controller_lazer-4] [0m[INFO] [1705929156.623437055] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.625631766] [controller_lazer_node]: [16.19600004 17.21775001 17.56774998 17.94974995 18.36874992 18.82574987
+[controller_lazer-4]  19.32649988 19.87324989 20.46899986 21.12574989 21.84549987 22.63224989
+[controller_lazer-4]  23.49499989 22.68099988 23.73374981 24.87249976 26.1702497  27.67499971
+[controller_lazer-4]  29.40474969 31.37549978 33.57324988 37.26824987 40.84549987 44.36650002
+[controller_lazer-4]  47.83650017 51.25150013 54.5625     57.78675008 60.90699995 63.93025017
+[controller_lazer-4]  66.82349992 69.55875015 72.14299989 74.55525005 78.56025016 80.56750023
+[controller_lazer-4]  82.36875033 83.88200045 85.08125043 85.81925058 86.01725054 85.68325043
+[controller_lazer-4]  83.56500053 81.30675054 78.94350052][0m
+[controller_lazer-4] [0m[INFO] [1705929156.628018009] [controller_lazer_node]: 最も遠い点の角度: 25.888031440313387度, 距離: 4.096059549422491[0m
+[servo-3] [INFO] [1705929156.631332491] [drive_node]: subscribe servo throtle: 4.0, steering: 25.888031440313387
+[servo-3] [INFO] [1705929156.633704049] [drive_node]: set_angle: 25.888031440313387 [263.70656186562206]
+[servo-3] [INFO] [1705929156.637680442] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.744010522] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.746691629] [controller_lazer_node]: [0.      0.773   0.783   0.793   0.806   0.818   0.832   0.845   0.86
+[controller_lazer-4]  0.883   0.92975 0.96    0.99    1.021   1.055   1.13    1.174   1.221
+[controller_lazer-4]  1.272   1.32775 1.38875 1.45375 1.52575 1.60675 1.70175 1.80075 1.88175
+[controller_lazer-4]  2.04875 2.24875 2.44275 2.69375 2.95275 0.      0.      0.      0.
+[controller_lazer-4]  0.      4.361   4.36    4.334   4.302   4.247   4.178   4.095   4.018
+[controller_lazer-4]  3.948   0.      3.868   3.744   3.653   3.548   3.451   3.22275 2.92975
+[controller_lazer-4]  2.67275 2.45575 2.26575 2.13075 2.00575 1.90875 1.81775 1.73675 1.65475
+[controller_lazer-4]  1.58375 1.52   ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.749420217] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.751957975] [controller_lazer_node]: [19.86224991 21.31599993 22.06874996 22.89249998 23.80125004 24.79600006
+[controller_lazer-4]  25.85975003 27.07649994 28.48024988 30.06299984 31.87374973 33.89674968
+[controller_lazer-4]  32.9367497  31.94674969 30.92574966 29.87074971 28.74074972 31.92774975
+[controller_lazer-4]  35.06674993 38.12875009 41.10300016 43.96125042 46.68550038 49.25475013
+[controller_lazer-4]  51.66600025 53.91225016 52.11150014 54.09775019 55.79300022 57.19725037
+[controller_lazer-4]  58.30250049 59.05975056 59.32975054 62.2595005  64.9322505  67.38800049
+[controller_lazer-4]  69.65375042 71.78450036 69.42925024 66.97800016 64.46175003 61.89649999
+[controller_lazer-4]  59.30424976 56.7099998  54.13499999][0m
+[controller_lazer-4] [0m[INFO] [1705929156.754356625] [controller_lazer_node]: 最も遠い点の角度: 21.71814716428089度, 距離: 3.4183095409756614[0m
+[servo-3] [INFO] [1705929156.757562832] [drive_node]: subscribe servo throtle: 4.0, steering: 21.71814716428089
+[servo-3] [INFO] [1705929156.759859133] [drive_node]: set_angle: 21.71814716428089 [277.6061761190637]
+[servo-3] [INFO] [1705929156.763764805] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929156.871525983] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929156.875834924] [controller_lazer_node]: [0.      1.3     1.345   1.398   1.452   1.514   1.58475 1.651   1.722
+[controller_lazer-4]  1.82475 1.95275 2.09075 2.22175 2.257   2.266   2.266   2.315   2.36
+[controller_lazer-4]  2.413   0.      2.477   2.495   2.556   2.607   2.66    2.679   0.
+[controller_lazer-4]  2.691   2.751   2.755   2.755   2.834   2.923   0.      2.989   3.104
+[controller_lazer-4]  3.134   3.003   2.74075 2.49975 2.28675 2.07075 1.92675 1.83075 1.73875
+[controller_lazer-4]  1.64775 1.57375 1.50075 1.43275 1.374   1.316   1.263   0.      1.218
+[controller_lazer-4]  1.176   1.137   1.102   1.068   1.035   0.996   0.969   0.949   0.929
+[controller_lazer-4]  0.912   0.896  ][0m
+[controller_lazer-4] [0m[INFO] [1705929156.880407563] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929156.884454806] [controller_lazer_node]: [36.41075015 38.90575004 40.16175008 41.42375016 42.68575025 43.91275012
+[controller_lazer-4]  42.39875007 43.505      44.6049999  45.63800001 46.56825018 47.44950032
+[controller_lazer-4]  48.28175044 46.06000042 46.79200053 47.63000059 48.49800062 49.18600059
+[controller_lazer-4]  49.56675076 49.65350056 51.94025064 51.53400064 50.96575069 50.24050069
+[controller_lazer-4]  49.37225056 48.36000049 47.25475061 48.75550056 47.49725056 46.12025058
+[controller_lazer-4]  44.68125045 43.18925035 40.35525024 38.6502502  39.8262502  37.97425008
+[controller_lazer-4]  35.97224998 33.90624988 31.93824983 30.19349974 28.66274983 27.32499975
+[controller_lazer-4]  26.18324977 25.16849983 24.23374987][0m
+[controller_lazer-4] [0m[INFO] [1705929156.889213867] [controller_lazer_node]: 最も遠い点の角度: -1.9111970665699343度, 距離: 2.4733452683403376[0m
+[servo-3] [INFO] [1705929156.895690075] [drive_node]: subscribe servo throtle: 4.0, steering: -1.9111970665699343
+[servo-3] [INFO] [1705929156.899780947] [drive_node]: set_angle: -1.9111970665699343 [356.37065688856643]
+[servo-3] [INFO] [1705929156.905787424] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.004677966] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.007521903] [controller_lazer_node]: [0.      1.91575 2.02375 2.033   2.072   2.071   2.11    2.121   2.129
+[controller_lazer-4]  2.166   0.      0.      2.212   2.256   2.276   2.331   2.41    2.439
+[controller_lazer-4]  2.478   2.534   2.592   2.588   2.6     2.687   2.82175 2.845   2.905
+[controller_lazer-4]  3.08275 3.08    2.968   2.67475 2.42575 2.17975 0.      1.82575 1.72575
+[controller_lazer-4]  1.63475 1.55175 0.      1.47175 1.39775 1.33475 1.27675 1.22175 1.171
+[controller_lazer-4]  1.127   1.086   1.047   1.013   0.982   0.952   0.925   0.894   0.865
+[controller_lazer-4]  0.846   0.      0.828   0.813   0.799   0.785   0.773   0.762   0.751
+[controller_lazer-4]  0.741   0.732  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.010511003] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.012706992] [controller_lazer_node]: [40.16949987 42.75749993 43.44174981 44.10499978 44.89374971 45.66674972
+[controller_lazer-4]  46.50074959 47.47349977 48.43249965 49.27149963 49.78024983 52.20599985
+[controller_lazer-4]  54.38574982 52.17374992 51.74349988 51.19324982 50.49699974 49.6387496
+[controller_lazer-4]  47.19974971 46.1934998  45.0572499  43.79999995 42.48874986 41.11049998
+[controller_lazer-4]  39.59449995 37.89974999 36.14074993 34.28275001 32.21299994 30.11500001
+[controller_lazer-4]  28.0990001  26.34925002 24.8175     23.50275004 24.34875005 22.52300006
+[controller_lazer-4]  21.6252501  20.80350012 20.0507502  20.83575022 20.1370002  19.50125021
+[controller_lazer-4]  18.91750014 18.38175017 17.89200014][0m
+[controller_lazer-4] [0m[INFO] [1705929157.015165604] [controller_lazer_node]: 最も遠い点の角度: -13.030888469323264度, 距離: 2.589797610328311[0m
+[servo-3] [INFO] [1705929157.018553158] [drive_node]: subscribe servo throtle: 4.0, steering: -13.030888469323264
+[servo-3] [INFO] [1705929157.020822497] [drive_node]: set_angle: -13.030888469323264 [393.43629489774423]
+[servo-3] [INFO] [1705929157.024571710] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.131658650] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.133892637] [controller_lazer_node]: [0.      2.317   2.327   2.32    2.314   2.266   2.243   2.212   2.209
+[controller_lazer-4]  2.242   2.313   2.413   2.417   0.      2.423   2.473   2.48    2.529
+[controller_lazer-4]  2.35275 2.06775 1.80975 1.62775 1.51875 1.42275 1.33075 1.25275 1.18375
+[controller_lazer-4]  0.      1.12075 1.06175 1.01075 0.96475 0.924   0.      0.85    0.818
+[controller_lazer-4]  0.789   0.762   0.737   0.714   0.      0.693   0.674   0.647   0.626
+[controller_lazer-4]  0.611   0.598   0.587   0.577   0.567   0.559   0.551   0.543   0.536
+[controller_lazer-4]  0.      0.53    0.524   0.519   0.513   0.509   0.504   0.5     0.497
+[controller_lazer-4]  0.494   0.491  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.136214864] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.138436463] [controller_lazer_node]: [43.72825015 45.35600019 44.55775023 43.65350032 42.66425037 41.60300052
+[controller_lazer-4]  40.52075052 38.27775049 37.18650055 36.03925049 34.80800045 33.45975047
+[controller_lazer-4]  31.97075039 29.55375034 30.40375036 28.79875028 27.11475021 25.39675021
+[controller_lazer-4]  23.60475016 21.96600008 19.8982501  18.78150016 17.82775015 16.95600021
+[controller_lazer-4]  16.1592502  15.43950021 14.78475016 14.18800014 14.76500016 14.21125019
+[controller_lazer-4]  13.70850015 13.24875009 12.82700008 12.43900007 12.43900007 12.11900002
+[controller_lazer-4]  11.82499999 11.55500001 11.30599999 11.07800001 10.86800003 11.36800003
+[controller_lazer-4]  11.17200002 10.99199998 10.83599997][0m
+[controller_lazer-4] [0m[INFO] [1705929157.140714190] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 2.159809532619658[0m
+[servo-3] [INFO] [1705929157.144081985] [drive_node]: subscribe servo throtle: 4.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929157.146399082] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929157.150307533] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.259060991] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.261981871] [controller_lazer_node]: [0.      0.      0.      3.35275 0.      3.09675 3.075   2.85475 0.
+[controller_lazer-4]  2.873   2.838   2.834   2.826   2.827   2.86    2.851   2.773   2.45375
+[controller_lazer-4]  2.10375 1.83375 1.59175 1.45575 0.      1.35975 1.26275 1.18975 1.11675
+[controller_lazer-4]  1.05175 0.99575 0.94775 0.89975 0.85775 0.82175 0.      0.78575 0.755
+[controller_lazer-4]  0.726   0.7     0.677   0.655   0.635   0.616   0.598   0.582   0.
+[controller_lazer-4]  0.567   0.553   0.533   0.515   0.504   0.495   0.487   0.48    0.474
+[controller_lazer-4]  0.468   0.462   0.      0.457   0.453   0.448   0.444   0.44    0.437
+[controller_lazer-4]  0.434   0.431  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.264849196] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.267637912] [controller_lazer_node]: [43.04424989 44.49999988 44.49999988 45.85974991 43.76974988 44.95949984
+[controller_lazer-4]  42.97949982 40.95624971 39.09724981 40.04499978 38.07174987 36.09149981
+[controller_lazer-4]  34.07924968 31.2532497  29.21199977 27.10699987 24.98199981 22.9089998
+[controller_lazer-4]  21.13224989 19.68349987 18.48474985 17.50899982 16.65124983 17.23324984
+[controller_lazer-4]  15.87349981 15.17774975 14.54099977 13.95724976 13.4204998  12.9287498
+[controller_lazer-4]  12.47599983 12.06324983 11.68549982 11.33774984 11.80574983 11.48199987
+[controller_lazer-4]  10.72699988 10.45799986 10.21099988  9.9819999   9.77099994  9.57599995
+[controller_lazer-4]   9.39699996  9.23299995  9.08199993][0m
+[controller_lazer-4] [0m[INFO] [1705929157.270598161] [controller_lazer_node]: 最も遠い点の角度: -25.54054129742076度, 距離: 2.18379761491503[0m
+[servo-3] [INFO] [1705929157.274286820] [drive_node]: subscribe servo throtle: 4.0, steering: -25.54054129742076
+[servo-3] [INFO] [1705929157.277052222] [drive_node]: set_angle: -25.54054129742076 [435.1351376580692]
+[servo-3] [INFO] [1705929157.281584195] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.379237308] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.381994783] [controller_lazer_node]: [0.      3.992   3.942   3.917   3.875   3.838   3.795   0.      3.76
+[controller_lazer-4]  3.734   3.704   3.655   3.617   3.553   3.506   3.462   3.41    3.312
+[controller_lazer-4]  3.231   3.145   3.071   2.986   2.883   2.78    2.686   2.597   0.
+[controller_lazer-4]  2.515   2.22675 1.92175 1.67975 1.49275 1.31175 0.      1.14175 1.07275
+[controller_lazer-4]  0.      1.01375 0.95775 0.90875 0.86475 0.82475 0.78875 0.755   0.725
+[controller_lazer-4]  0.698   0.673   0.      0.65    0.629   0.608   0.59    0.574   0.558
+[controller_lazer-4]  0.544   0.53    0.518   0.507   0.      0.496   0.486   0.476   0.468
+[controller_lazer-4]  0.46    0.452  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.384760167] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.388058760] [controller_lazer_node]: [68.51900029 71.50500035 70.39600015 69.23400021 68.00300026 66.72500014
+[controller_lazer-4]  62.88700008 61.60700011 63.83375001 61.99549997 59.94124997 57.73000002
+[controller_lazer-4]  55.3867501  51.76975    49.3585     46.92524993 43.46325004 41.06699991
+[controller_lazer-4]  38.7127499  36.39049995 34.11025    31.8639999  29.66674984 27.53874993
+[controller_lazer-4]  25.48374999 23.49574989 21.57174999 21.57174999 19.70674986 18.10899997
+[controller_lazer-4]  16.79525    15.70550001 14.78674996 14.03299993 14.57699996 13.96524996
+[controller_lazer-4]  13.41049999 13.91750002 12.90375006 12.44200003 12.01925004 11.63050002
+[controller_lazer-4]  11.27375001 10.94500002 10.64200002][0m
+[controller_lazer-4] [0m[INFO] [1705929157.391780085] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 3.405000016802833[0m
+[servo-3] [INFO] [1705929157.395800199] [drive_node]: subscribe servo throtle: 4.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929157.398628044] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929157.402767156] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.500894424] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.503512848] [controller_lazer_node]: [0.      1.883   1.954   2.025   2.106   2.186   2.26    3.31075 3.306
+[controller_lazer-4]  3.303   3.275   3.262   3.209   3.204   0.      3.291   3.434   3.553
+[controller_lazer-4]  3.533   3.478   3.442   3.4     3.357   0.      3.301   3.222   3.139
+[controller_lazer-4]  3.068   2.991   2.915   2.836   2.737   2.646   0.      2.478   2.4
+[controller_lazer-4]  2.20175 1.92975 1.72475 0.      1.54875 1.39175 1.25475 1.15875 1.09875
+[controller_lazer-4]  1.04075 0.98875 0.94075 0.89875 0.85975 0.822   0.      0.791   0.761
+[controller_lazer-4]  0.735   0.712   0.688   0.667   0.647   0.629   0.613   0.597   0.582
+[controller_lazer-4]  0.568   0.     ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.506248732] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.508823137] [controller_lazer_node]: [56.01475012 59.41475022 60.88875031 58.93475032 60.21075034 61.32675028
+[controller_lazer-4]  62.27975011 63.0877502  62.76800013 62.37700009 61.91000009 61.37199998
+[controller_lazer-4]  60.7559998  57.54699969 56.82099962 59.22099972 58.13174987 56.62749982
+[controller_lazer-4]  54.79924989 51.2662499  49.33700001 47.28675008 45.1415     42.94324994
+[controller_lazer-4]  44.04199994 41.78174984 39.54849994 37.35025001 35.18099993 33.04974997
+[controller_lazer-4]  30.95675004 28.12075007 26.17475009 24.28975016 25.02475017 23.25875026
+[controller_lazer-4]  21.54675019 20.01200014 18.72925019 17.63350016 18.24650013 17.29475009
+[controller_lazer-4]  16.48500013 15.79825014 14.63950008][0m
+[controller_lazer-4] [0m[INFO] [1705929157.511870848] [controller_lazer_node]: 最も遠い点の角度: -19.980695596044093度, 距離: 3.0041785807836625[0m
+[servo-3] [INFO] [1705929157.515699429] [drive_node]: subscribe servo throtle: 4.0, steering: -19.980695596044093
+[servo-3] [INFO] [1705929157.518398388] [drive_node]: set_angle: -19.980695596044093 [416.6023186534803]
+[servo-3] [INFO] [1705929157.522546315] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.622061626] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.624473684] [controller_lazer_node]: [0.      1.187   1.208   1.231   1.254   1.281   1.311   1.34    1.373
+[controller_lazer-4]  1.408   1.442   1.481   1.526   1.568   1.617   1.67    1.728   0.
+[controller_lazer-4]  1.787   1.847   1.922   1.985   0.      3.04675 3.083   3.073   0.
+[controller_lazer-4]  2.997   2.986   0.      3.101   3.022   3.      0.      3.223   3.211
+[controller_lazer-4]  3.202   3.176   3.149   3.097   3.051   2.981   2.911   2.85    2.781
+[controller_lazer-4]  2.72    0.      2.658   2.577   2.502   2.431   2.362   2.296   2.232
+[controller_lazer-4]  2.169   2.01275 1.84975 1.71175 1.59075 1.49075 1.39375 1.30475 0.
+[controller_lazer-4]  1.23475 1.16575][0m
+[controller_lazer-4] [0m[INFO] [1705929157.627152569] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.629663495] [controller_lazer_node]: [28.18099988 30.16599989 28.97899985 30.81774998 32.66974998 34.48874998
+[controller_lazer-4]  33.20774996 34.89374995 36.53974998 35.16674995 36.85975003 38.43975008
+[controller_lazer-4]  39.95875013 38.43275011 40.0877502  41.68175018 43.21375012 44.6617502
+[controller_lazer-4]  47.81075013 49.12075007 50.32475019 51.38375008 52.30975008 55.15974998
+[controller_lazer-4]  54.89399981 54.5309999  51.45799994 54.11599994 53.69599986 53.21199989
+[controller_lazer-4]  55.64299989 54.90399981 54.17799973 53.40999985 55.57899976 54.36874962
+[controller_lazer-4]  53.00749969 51.51724982 49.93199968 48.27374971 46.57049978 44.82424963
+[controller_lazer-4]  41.84324968 40.1669997  38.48274982][0m
+[controller_lazer-4] [0m[INFO] [1705929157.632447285] [controller_lazer_node]: 最も遠い点の角度: 11.988417186871727度, 距離: 2.649666661307925[0m
+[servo-3] [INFO] [1705929157.636312569] [drive_node]: subscribe servo throtle: 4.0, steering: 11.988417186871727
+[servo-3] [INFO] [1705929157.638989917] [drive_node]: set_angle: 11.988417186871727 [310.03860937709425]
+[servo-3] [INFO] [1705929157.643172751] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.748711947] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.751093357] [controller_lazer_node]: [0.      1.003   1.011   1.022   1.033   1.038   1.048   1.062   1.081
+[controller_lazer-4]  1.099   1.12    1.14    0.      1.164   1.189   1.215   1.244   1.272
+[controller_lazer-4]  1.303   1.338   1.375   1.417   1.458   1.506   1.555   1.608   1.665
+[controller_lazer-4]  1.73    1.795   1.851   0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      2.97775 3.003   2.928   2.894   2.889   2.968   2.96    2.895
+[controller_lazer-4]  2.855   2.834   2.798   2.682   2.669   2.668   0.      2.662   2.696
+[controller_lazer-4]  2.657   2.611   2.569   2.516   2.44    2.375   2.31    2.248   2.194
+[controller_lazer-4]  2.141   2.077  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.753604487] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.755934268] [controller_lazer_node]: [21.75699997 23.17400002 23.62899995 24.12399995 24.65699995 25.23199999
+[controller_lazer-4]  25.85899997 26.54100001 27.27399993 28.04399991 26.94499993 25.82499993
+[controller_lazer-4]  24.68499994 24.68499994 23.52099991 22.3319999  21.11699986 22.85074997
+[controller_lazer-4]  24.58175004 26.20675004 27.76275003 29.27674997 30.82774985 32.32974994
+[controller_lazer-4]  33.71874988 35.01874995 36.24475002 37.37775016 38.32975006 39.20375001
+[controller_lazer-4]  40.02075005 40.02075005 42.68274999 45.37875009 48.03575015 50.64675021
+[controller_lazer-4]  53.21575022 55.73175025 55.19400024 54.56600022 53.94800019 53.30200005
+[controller_lazer-4]  52.60700011 51.78000021 50.89700007][0m
+[controller_lazer-4] [0m[INFO] [1705929157.758332623] [controller_lazer_node]: 最も遠い点の角度: 21.71814716428089度, 距離: 2.6538928690410795[0m
+[servo-3] [INFO] [1705929157.761563125] [drive_node]: subscribe servo throtle: 4.0, steering: 21.71814716428089
+[servo-3] [INFO] [1705929157.763925776] [drive_node]: set_angle: 21.71814716428089 [277.6061761190637]
+[servo-3] [INFO] [1705929157.767684786] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.874123166] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.877711660] [controller_lazer_node]: [0.      0.725   0.727   0.727   0.729   0.731   0.733   0.736   0.739
+[controller_lazer-4]  0.742   0.747   0.752   0.757   0.762   0.768   0.775   0.782   0.78
+[controller_lazer-4]  0.785   0.795   0.806   0.819   0.833   0.847   0.862   0.877   0.895
+[controller_lazer-4]  0.914   0.933   0.955   0.977   1.001   1.027   0.      1.087   1.119
+[controller_lazer-4]  1.153   1.193   1.234   1.278   1.33    1.381   1.44375 1.503   1.57675
+[controller_lazer-4]  1.63    3.29275 3.247   3.2     3.18    3.157   3.148   3.115   3.095
+[controller_lazer-4]  3.068   3.041   3.024   3.002   2.994   2.954   2.924   2.896   2.852
+[controller_lazer-4]  2.828   2.801  ][0m
+[controller_lazer-4] [0m[INFO] [1705929157.880078904] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929157.882305984] [controller_lazer_node]: [15.09799999 15.917      16.02499998 16.14499998 16.27999997 16.42799997
+[controller_lazer-4]  16.59199995 16.77299994 16.96999997 17.18599993 17.42099994 17.67500001
+[controller_lazer-4]  17.94999999 17.19299996 17.51799995 17.8689999  18.24699992 18.65799987
+[controller_lazer-4]  19.11199987 19.60499984 20.13999987 20.71499991 21.33974993 22.00974995
+[controller_lazer-4]  22.73949999 23.50749999 25.9232499  28.2752499  30.56124997 32.80825001
+[controller_lazer-4]  35.01025009 37.1812501  39.29525006 41.36325014 44.43125021 46.38525009
+[controller_lazer-4]  48.29025006 50.13925016 51.94025016 53.66025019 55.30625021 56.87225008
+[controller_lazer-4]  58.34325004 59.72750008 61.02550018][0m
+[controller_lazer-4] [0m[INFO] [1705929157.884743004] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 2.905976198968433[0m
+[servo-3] [INFO] [1705929157.888019747] [drive_node]: subscribe servo throtle: 4.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929157.890302122] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929157.894093241] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929157.996370973] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929157.999712769] [controller_lazer_node]: [0.      0.641   0.642   0.644   0.646   0.648   0.651   0.654   0.657
+[controller_lazer-4]  0.661   0.665   0.67    0.674   0.67    0.675   0.683   0.692   0.702
+[controller_lazer-4]  0.713   0.724   0.736   0.747   0.76    0.774   0.789   0.804   0.822
+[controller_lazer-4]  0.84    0.859   0.881   0.904   0.928   0.954   0.      1.012   1.046
+[controller_lazer-4]  1.082   1.123   1.166   1.211   1.26    1.31575 1.37975 1.44875 1.505
+[controller_lazer-4]  3.14575 3.109   3.097   3.067   3.04    3.021   2.992   2.976   2.951
+[controller_lazer-4]  2.927   2.912   2.9     2.88    2.856   2.826   2.8     2.762   2.742
+[controller_lazer-4]  2.715   2.687  ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.003273153] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.007051755] [controller_lazer_node]: [13.44800013 14.19500011 14.31400013 14.4460001  14.59100008 14.74900007
+[controller_lazer-4]  14.9230001  15.11200005 15.31700009 15.54100007 15.78400004 16.04699999
+[controller_lazer-4]  16.33099997 15.65699995 15.99899989 16.36999989 16.76899987 17.19999993
+[controller_lazer-4]  17.66399992 18.16199988 18.69799989 19.2777499  19.91049993 20.59924996
+[controller_lazer-4]  21.33024997 23.68700004 25.99199998 28.26699984 30.49399978 32.67499971
+[controller_lazer-4]  34.81499964 36.90299976 38.95099986 40.94799984 43.87499988 45.77499986
+[controller_lazer-4]  47.62899995 49.42700005 51.15999997 52.81999993 54.40899992 55.91100001
+[controller_lazer-4]  57.33725011 58.67250001 59.91075003][0m
+[controller_lazer-4] [0m[INFO] [1705929158.012057311] [controller_lazer_node]: 最も遠い点の角度: 31.447877141690054度, 距離: 2.8528928586414883[0m
+[servo-3] [INFO] [1705929158.017580930] [drive_node]: subscribe servo throtle: 4.0, steering: 31.447877141690054
+[servo-3] [INFO] [1705929158.021546934] [drive_node]: set_angle: 31.447877141690054 [245.17374286103316]
+[servo-3] [INFO] [1705929158.026578397] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929158.131040457] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.133291204] [controller_lazer_node]: [0.      0.622   0.63    0.638   0.647   0.656   0.667   0.677   0.688
+[controller_lazer-4]  0.701   0.713   0.727   0.741   0.756   0.772   0.791   0.81    0.832
+[controller_lazer-4]  0.853   0.877   0.903   0.93    0.961   0.993   1.03    1.068   1.111
+[controller_lazer-4]  1.156   1.20875 1.249   1.295   2.90475 2.879   0.      2.833   2.811
+[controller_lazer-4]  2.779   2.755   2.737   2.718   2.701   2.678   2.662   2.65    2.632
+[controller_lazer-4]  2.609   2.584   2.552   2.528   2.508   2.475   2.458   2.434   2.39
+[controller_lazer-4]  2.349   2.313   2.269   2.234   2.199   2.162   2.133   2.103   2.06
+[controller_lazer-4]  2.021   1.98   ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.135673355] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.137899083] [controller_lazer_node]: [14.70099998 15.63099998 15.97000003 16.333      16.72499996 17.14599991
+[controller_lazer-4]  17.60099983 18.08999985 18.62174988 19.18274981 19.77674979 21.9684999
+[controller_lazer-4]  24.12049985 23.37949985 25.45649981 27.49549991 29.48349994 31.42850006
+[controller_lazer-4]  33.33350003 35.19849998 37.02249998 38.79749995 40.52949989 42.21849996
+[controller_lazer-4]  43.85749996 45.43649995 46.9525001  48.39350021 49.76550031 51.06475019
+[controller_lazer-4]  52.29075015 53.45375013 52.98300004 52.4940002  54.84300017 54.32300019
+[controller_lazer-4]  53.78100014 53.23600006 52.67999983 52.10499978 51.51999974 50.92199969
+[controller_lazer-4]  50.30399966 49.66299963 48.99299955][0m
+[controller_lazer-4] [0m[INFO] [1705929158.140237976] [controller_lazer_node]: 最も遠い点の角度: 17.54826288824839度, 距離: 2.611571436836606[0m
+[servo-3] [INFO] [1705929158.143549459] [drive_node]: subscribe servo throtle: 4.0, steering: 17.54826288824839
+[servo-3] [INFO] [1705929158.145784354] [drive_node]: set_angle: 17.54826288824839 [291.5057903725054]
+[servo-3] [INFO] [1705929158.149795635] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929158.261497887] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.264078052] [controller_lazer_node]: [0.      0.895   0.917   0.941   0.968   0.996   1.025   1.058   1.084
+[controller_lazer-4]  2.16575 2.161   2.161   2.16    2.156   0.      2.15    2.118   2.11
+[controller_lazer-4]  2.093   2.073   2.072   2.21875 2.262   2.256   2.251   2.34    2.386
+[controller_lazer-4]  2.395   2.38    2.348   2.335   2.305   2.279   0.      2.23    2.204
+[controller_lazer-4]  2.184   2.14    2.102   2.067   2.029   1.993   1.954   1.927   1.896
+[controller_lazer-4]  1.867   1.839   1.806   0.      1.77    1.739   1.707   1.675   1.65
+[controller_lazer-4]  1.619   1.6     1.576   1.552   1.536   1.501   1.461   1.422   1.379
+[controller_lazer-4]  1.341   1.303  ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.266957859] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.269594430] [controller_lazer_node]: [31.30374986 33.52249986 34.88949996 36.22850001 37.53849995 38.91049987
+[controller_lazer-4]  40.3004998  41.6704998  42.99249995 44.25650001 44.42575002 44.56975007
+[controller_lazer-4]  44.6877501  42.52775002 42.60175014 44.80575013 44.83975005 44.86175013
+[controller_lazer-4]  44.85375023 44.82775021 44.7837503  44.7047503  44.4400003  44.10500026
+[controller_lazer-4]  43.74500024 43.3610003  42.86000037 42.28000045 39.88500047 39.27500033
+[controller_lazer-4]  38.66600025 38.03800023 37.40800011 36.77900004 38.398      37.76800001
+[controller_lazer-4]  37.13999999 36.50800002 35.90399992 35.30299997 34.69700003 34.09000003
+[controller_lazer-4]  33.47599995 32.86299992 32.23899984][0m
+[controller_lazer-4] [0m[INFO] [1705929158.272589975] [controller_lazer_node]: 最も遠い点の角度: -6.081081342602433度, 距離: 2.136273815518334[0m
+[servo-3] [INFO] [1705929158.276344485] [drive_node]: subscribe servo throtle: 4.0, steering: -6.081081342602433
+[servo-3] [INFO] [1705929158.279283697] [drive_node]: set_angle: -6.081081342602433 [370.27027114200814]
+[servo-3] [INFO] [1705929158.283949983] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929158.382102850] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.385345278] [controller_lazer_node]: [0.      2.147   2.118   2.115   2.11    2.109   2.086   0.      2.28075
+[controller_lazer-4]  2.303   2.26    2.311   2.362   2.371   2.367   2.353   2.338   2.328
+[controller_lazer-4]  2.307   2.283   2.255   2.227   2.198   2.17    2.146   0.      2.122
+[controller_lazer-4]  2.096   2.081   2.034   1.998   1.961   1.926   0.      1.856   1.826
+[controller_lazer-4]  1.795   1.771   1.744   1.71    1.678   1.644   1.615   1.584   1.557
+[controller_lazer-4]  1.53    1.503   1.482   1.461   1.441   0.      1.422   1.398   1.368
+[controller_lazer-4]  1.336   1.296   1.26    1.224   1.194   1.165   1.137   1.112   1.086
+[controller_lazer-4]  1.064   1.046  ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.389631998] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.393328323] [controller_lazer_node]: [42.80375028 45.03075027 45.08175015 45.1337502  45.1647501  43.0547502
+[controller_lazer-4]  43.06775022 43.07775021 45.1587503  44.91200018 44.60700023 44.30800021
+[controller_lazer-4]  43.9230001  41.56100011 41.046      40.50499988 39.94699991 39.37999988
+[controller_lazer-4]  38.79599977 38.19899988 37.59399986 36.9829998  36.37099981 35.75699985
+[controller_lazer-4]  35.14399981 34.52799988 36.0309999  35.39099991 34.75599992 34.11599982
+[controller_lazer-4]  32.0819999  31.50599992 30.94299996 30.38499999 31.72099996 31.16100001
+[controller_lazer-4]  30.59500003 30.02400005 29.44700003 28.86800003 28.29499996 27.72899997
+[controller_lazer-4]  27.17099988 26.61999989 26.0819999 ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.396303795] [controller_lazer_node]: 最も遠い点の角度: -24.15057987207659度, 距離: 2.1507023856753396[0m
+[servo-3] [INFO] [1705929158.400191894] [drive_node]: subscribe servo throtle: 4.0, steering: -24.15057987207659
+[servo-3] [INFO] [1705929158.402943481] [drive_node]: set_angle: -24.15057987207659 [430.501932906922]
+[servo-3] [INFO] [1705929158.406999280] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929158.506225623] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.508844380] [controller_lazer_node]: [0.    0.    2.261 2.237 2.21  2.189 2.165 2.146 2.123 2.097 2.065 2.033
+[controller_lazer-4]  2.005 1.974 1.945 1.922 1.896 1.873 1.848 0.    1.807 1.767 1.733 1.696
+[controller_lazer-4]  1.663 1.626 1.597 1.572 1.545 1.521 1.497 1.464 1.433 0.    1.378 1.349
+[controller_lazer-4]  1.325 0.    1.302 1.28  1.256 1.24  1.224 1.209 1.194 1.18  1.162 1.14
+[controller_lazer-4]  1.114 1.084 1.056 1.031 1.005 0.    0.984 0.962 0.942 0.925 0.907 0.89
+[controller_lazer-4]  0.876 0.862 0.848 0.837 0.826][0m
+[controller_lazer-4] [0m[INFO] [1705929158.511608078] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.514199002] [controller_lazer_node]: [36.79599988 38.56299984 40.29599988 39.73099995 39.15699995 38.57299995
+[controller_lazer-4]  37.98100007 37.38800013 36.78700018 36.1850003  35.5850004  34.98400033
+[controller_lazer-4]  34.3840003  32.37900019 31.78300023 31.18700016 30.59000015 28.69400012
+[controller_lazer-4]  28.12300014 27.55500007 28.81100011 28.24400008 27.70100009 27.17700005
+[controller_lazer-4]  26.67500007 26.19200003 25.72799993 25.27099991 24.81299984 24.35199988
+[controller_lazer-4]  23.88699985 23.42099988 22.96199989 21.52899992 22.51299995 22.09699994
+[controller_lazer-4]  21.68999994 21.2899999  22.19699991 21.78499985 21.38099986 20.98699981
+[controller_lazer-4]  20.59499979 20.20799983 19.82499981][0m
+[controller_lazer-4] [0m[INFO] [1705929158.516897628] [controller_lazer_node]: 最も遠い点の角度: -26.930502722764924度, 距離: 1.9188571373621623[0m
+[servo-3] [INFO] [1705929158.520529547] [drive_node]: subscribe servo throtle: 3.0, steering: -26.930502722764924
+[servo-3] [INFO] [1705929158.523240858] [drive_node]: set_angle: -26.930502722764924 [439.7683424092164]
+[servo-3] [INFO] [1705929158.527352248] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929158.625259454] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.627886229] [controller_lazer_node]: [0.    2.233 2.199 2.17  2.145 2.112 2.09  2.066 2.05  2.026 2.001 1.973
+[controller_lazer-4]  1.942 1.911 0.    1.884 1.856 1.828 1.805 1.78  1.76  1.739 1.698 1.663
+[controller_lazer-4]  1.624 1.592 1.56  1.528 1.498 1.471 0.    1.446 1.423 0.    1.382 1.355
+[controller_lazer-4]  1.329 1.304 1.278 1.253 1.232 1.212 1.191 1.173 1.155 0.    1.136 1.124
+[controller_lazer-4]  1.111 1.096 1.084 1.073 1.064 1.043 1.031 1.011 0.99  0.969 0.948 0.929
+[controller_lazer-4]  0.    0.912 0.895 0.88  0.865][0m
+[controller_lazer-4] [0m[INFO] [1705929158.630710963] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.633392459] [controller_lazer_node]: [37.83099961 39.56999958 39.03499949 38.4989996  37.95299947 37.3999995
+[controller_lazer-4]  36.84799945 36.28599954 35.71799958 35.13899958 33.11299956 32.55799961
+[controller_lazer-4]  32.00799954 30.06599951 29.53699946 30.89199948 30.33699954 29.78499961
+[controller_lazer-4]  29.23499966 28.68299973 28.13499975 27.58699977 27.0389998  26.51399982
+[controller_lazer-4]  26.0059998  24.38199985 23.92599988 23.48999989 23.07299984 22.67099977
+[controller_lazer-4]  22.2839998  23.35699975 22.97499979 22.59499979 23.62599981 23.25499988
+[controller_lazer-4]  22.88999987 22.52999985 22.17399985 21.82499987 20.57199985 20.25199986
+[controller_lazer-4]  19.93499982 19.62399983 19.31599987][0m
+[controller_lazer-4] [0m[INFO] [1705929158.636273988] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 1.8842856940769015[0m
+[servo-3] [INFO] [1705929158.640065367] [drive_node]: subscribe servo throtle: 3.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929158.642831991] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929158.646925086] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929158.750924063] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.754157288] [controller_lazer_node]: [0.    2.533 2.476 0.    2.412 2.36  2.314 2.264 2.218 2.175 2.131 2.092
+[controller_lazer-4]  2.055 2.021 1.987 1.959 1.93  1.904 1.879 1.856 1.834 1.812 1.796 0.
+[controller_lazer-4]  1.777 1.764 1.739 1.715 1.69  1.663 1.638 1.611 1.594 0.    1.549 1.532
+[controller_lazer-4]  1.516 1.502 1.487 1.456 1.428 1.402 1.377 0.    1.35  1.328 1.304 1.282
+[controller_lazer-4]  1.264 1.246 1.229 1.215 1.199 1.187 1.175 1.162 1.144 1.128 1.113 1.096
+[controller_lazer-4]  1.082 1.069 0.    1.055 1.044][0m
+[controller_lazer-4] [0m[INFO] [1705929158.756736564] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.758993922] [controller_lazer_node]: [40.3999995  42.21199954 41.47499955 38.99899948 40.77599943 40.12799954
+[controller_lazer-4]  39.50699961 38.90799975 38.33399987 37.77899992 37.24199998 36.72199988
+[controller_lazer-4]  36.22399986 34.16899979 33.69699991 33.24199986 32.79899991 32.37099993
+[controller_lazer-4]  31.95399988 31.5309999  31.10299993 30.67099988 30.23599982 28.43999982
+[controller_lazer-4]  29.78999984 29.34099984 28.8809998  28.42399979 27.97299981 27.52899981
+[controller_lazer-4]  27.09499979 26.67199981 26.25999987 25.85299993 27.02799988 26.64099979
+[controller_lazer-4]  26.2529999  25.86499989 25.47599995 25.08499992 24.71099997 24.352
+[controller_lazer-4]  22.95000005 22.62800002 23.67200005][0m
+[controller_lazer-4] [0m[INFO] [1705929158.761305778] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 2.0100952159790766[0m
+[servo-3] [INFO] [1705929158.764612224] [drive_node]: subscribe servo throtle: 4.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929158.766973171] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929158.770763180] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929158.876433936] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929158.879914655] [controller_lazer_node]: [0.    2.941 2.854 0.    2.763 2.67  2.587 2.499 2.438 2.379 2.315 2.268
+[controller_lazer-4]  2.217 2.168 2.119 2.075 2.035 1.997 1.96  1.924 1.894 1.863 1.835 1.81
+[controller_lazer-4]  1.783 0.    1.766 1.741 1.719 1.702 1.684 1.669 1.653 0.    1.616 1.598
+[controller_lazer-4]  1.575 1.553 1.529 1.508 1.489 1.471 1.452 1.437 1.423 1.409 1.399 0.
+[controller_lazer-4]  1.386 1.366 1.341 1.319 1.298 1.277 1.256 1.239 1.22  1.204 1.188 1.175
+[controller_lazer-4]  1.162 1.149 1.139 1.128 1.118][0m
+[controller_lazer-4] [0m[INFO] [1705929158.882201327] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929158.884412185] [controller_lazer_node]: [44.10300016 45.9660002  44.86000025 43.8160001  45.5990001  42.83600008
+[controller_lazer-4]  41.93200004 41.0860002  40.30600011 39.57000017 38.87500024 38.22900021
+[controller_lazer-4]  37.61400032 35.39700031 34.84500039 34.32400048 33.82400048 33.34200037
+[controller_lazer-4]  32.87400043 32.42200041 31.98700035 31.56400025 31.15300024 30.75500023
+[controller_lazer-4]  30.36800027 29.99400032 31.39300036 29.62700033 29.27200031 28.91900039
+[controller_lazer-4]  28.55800033 28.19300032 27.82200027 27.44600022 28.70200026 28.32500017
+[controller_lazer-4]  27.94700015 27.57600009 27.21100008 26.85699999 26.51099992 26.171
+[controller_lazer-4]  25.83900011 25.5150001  25.1960001 ][0m
+[controller_lazer-4] [0m[INFO] [1705929158.886776077] [controller_lazer_node]: 最も遠い点の角度: -28.32046414810909度, 距離: 2.188857152348473[0m
+[servo-3] [INFO] [1705929158.890120541] [drive_node]: subscribe servo throtle: 4.0, steering: -28.32046414810909
+[servo-3] [INFO] [1705929158.892367343] [drive_node]: set_angle: -28.32046414810909 [444.40154716036363]
+[servo-3] [INFO] [1705929158.896077094] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929159.002482407] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.005951386] [controller_lazer_node]: [0.      0.761   0.79    0.791   3.64275 3.65    0.      3.584   3.466
+[controller_lazer-4]  3.414   3.322   3.198   3.062   2.953   2.832   2.714   2.63    2.531
+[controller_lazer-4]  2.442   2.369   2.291   2.225   2.164   2.105   2.056   2.007   1.965
+[controller_lazer-4]  1.925   0.      1.884   1.848   1.813   1.781   0.      1.72    1.692
+[controller_lazer-4]  1.666   1.643   1.618   1.597   1.573   1.555   1.54    1.522   1.507
+[controller_lazer-4]  1.492   1.478   1.467   1.456   1.446   0.      1.438   1.429   1.419
+[controller_lazer-4]  1.403   1.388   1.372   1.357   1.342   1.329   1.316   1.306   1.295
+[controller_lazer-4]  1.285   1.277  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.008356222] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.010618117] [controller_lazer_node]: [50.44275022 52.66775012 54.07075018 55.38575017 56.65075016 55.0150001
+[controller_lazer-4]  53.33000004 55.255      51.67099988 50.08899975 48.52299976 47.0139997
+[controller_lazer-4]  45.59699976 42.53499973 41.30199969 40.1619997  39.11399972 38.12699962
+[controller_lazer-4]  37.21399975 36.36899984 35.57299984 34.83699989 34.15199995 33.50999987
+[controller_lazer-4]  32.91199982 32.34799981 31.81899989 31.32099986 30.85199988 32.29799986
+[controller_lazer-4]  30.41399992 30.00399983 29.61999989 29.2579999  30.66099989 30.32899988
+[controller_lazer-4]  30.00899982 29.69999981 29.39899981 29.10999978 28.82899976 28.5619998
+[controller_lazer-4]  28.30199981 28.04699981 27.80199981][0m
+[controller_lazer-4] [0m[INFO] [1705929159.012902066] [controller_lazer_node]: 最も遠い点の角度: -24.15057987207659度, 距離: 2.6976547695341564[0m
+[servo-3] [INFO] [1705929159.016242048] [drive_node]: subscribe servo throtle: 4.0, steering: -24.15057987207659
+[servo-3] [INFO] [1705929159.018629329] [drive_node]: set_angle: -24.15057987207659 [430.501932906922]
+[servo-3] [INFO] [1705929159.022362987] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929159.123091118] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.125677801] [controller_lazer_node]: [0.      0.556   0.571   0.586   0.604   0.623   0.642   0.665   0.688
+[controller_lazer-4]  0.7     0.721   3.58675 3.537   3.443   3.371   3.295   3.223   0.
+[controller_lazer-4]  3.105   2.975   2.859   2.754   2.644   2.542   2.456   2.376   2.294
+[controller_lazer-4]  2.224   2.148   2.092   2.037   1.986   1.942   0.      1.856   1.819
+[controller_lazer-4]  1.784   0.      1.751   1.719   1.69    1.661   1.634   1.607   1.583
+[controller_lazer-4]  1.561   1.541   1.521   1.502   1.484   1.471   1.454   1.439   1.428
+[controller_lazer-4]  1.416   1.406   1.397   1.387   1.379   1.372   0.      1.368   1.362
+[controller_lazer-4]  1.354   1.347  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.128878564] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.131674706] [controller_lazer_node]: [35.75075018 38.50475013 40.59275019 42.56375027 44.43375033 46.20575029
+[controller_lazer-4]  47.87675017 49.45875013 50.94175011 52.34575009 53.68275005 54.94774997
+[controller_lazer-4]  53.30299997 49.76600003 48.1789999  46.62699986 45.11599982 41.89299977
+[controller_lazer-4]  43.64399981 42.25799978 40.97299993 39.77499998 38.65499997 37.61799991
+[controller_lazer-4]  36.6589998  35.7639997  34.92899978 34.1559999  33.4339999  32.76999986
+[controller_lazer-4]  32.14899981 31.56599987 31.01899993 30.50499988 31.92099988 31.47099996
+[controller_lazer-4]  31.04899991 30.65199983 32.03099978 31.65199971 29.93299973 29.6109997
+[controller_lazer-4]  29.31199968 29.03199971 28.77199972][0m
+[controller_lazer-4] [0m[INFO] [1705929159.134654974] [controller_lazer_node]: 最も遠い点の角度: -14.420849894667429度, 距離: 2.616559522492545[0m
+[servo-3] [INFO] [1705929159.138628497] [drive_node]: subscribe servo throtle: 4.0, steering: -14.420849894667429
+[servo-3] [INFO] [1705929159.142211566] [drive_node]: set_angle: -14.420849894667429 [398.06949964889145]
+[servo-3] [INFO] [1705929159.146708504] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929159.251420843] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.254598329] [controller_lazer_node]: [0.      0.276   0.279   0.283   0.286   0.289   0.293   0.298   0.302
+[controller_lazer-4]  0.307   0.312   0.317   0.323   0.329   0.336   0.343   0.351   0.359
+[controller_lazer-4]  0.377   0.388   0.399   0.411   0.425   0.439   0.434   0.46775 0.47
+[controller_lazer-4]  0.      3.24675 3.2     3.123   3.068   2.998   0.      2.807   2.699
+[controller_lazer-4]  2.588   2.494   2.416   2.328   2.251   2.176   2.114   0.      2.051
+[controller_lazer-4]  1.988   1.933   1.886   1.845   1.807   1.768   1.733   1.702   1.668
+[controller_lazer-4]  1.64    1.613   1.586   1.562   1.542   1.52    1.5     1.478   1.464
+[controller_lazer-4]  1.446   1.431  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.257389712] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.259969136] [controller_lazer_node]: [ 6.44700006  6.85800007  7.00700009  7.16700009  7.31800008  7.49975008
+[controller_lazer-4]   7.68075007  7.38775006 10.33650017 13.23450023 16.05050012 18.8065002
+[controller_lazer-4]  21.4875001  21.16450009 23.64250001 26.0054999  28.25049996 30.39349991
+[controller_lazer-4]  32.4504998  34.40149987 36.26449978 38.04149991 39.74449998 39.31949997
+[controller_lazer-4]  40.93150008 42.48550013 43.95075008 45.36675012 47.21175015 45.77200007
+[controller_lazer-4]  44.34000003 42.95000017 41.58400011 40.25400019 41.89400017 40.70000029
+[controller_lazer-4]  39.58700037 38.56100035 37.60900044 36.71300054 35.88500047 35.11200058
+[controller_lazer-4]  34.40000045 33.73200035 35.16300035][0m
+[controller_lazer-4] [0m[INFO] [1705929159.262808481] [controller_lazer_node]: 最も遠い点の角度: 9.208494336183394度, 距離: 2.2481785785584223[0m
+[servo-3] [INFO] [1705929159.266893391] [drive_node]: subscribe servo throtle: 4.0, steering: 9.208494336183394
+[servo-3] [INFO] [1705929159.269743698] [drive_node]: set_angle: 9.208494336183394 [319.3050188793887]
+[servo-3] [INFO] [1705929159.274181415] [drive_node]: set_accel: 4.0 [340.0]
+[controller_lazer-4] [0m[INFO] [1705929159.371736486] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.374397501] [controller_lazer_node]: [0.      0.168   0.169   0.17    0.171   0.173   0.174   0.175   0.177
+[controller_lazer-4]  0.179   0.18    0.182   0.184   0.186   0.188   0.191   0.194   0.2
+[controller_lazer-4]  0.203   0.206   0.21    0.214   0.219   0.223   0.228   0.233   0.239
+[controller_lazer-4]  0.245   0.252   0.259   0.267   0.276   0.285   0.      0.319   0.3315
+[controller_lazer-4]  0.      0.36375 0.352   0.      2.26575 2.312   2.263   0.      2.206
+[controller_lazer-4]  2.128   2.24575 2.247   2.209   2.157   2.096   2.032   1.979   1.927
+[controller_lazer-4]  1.865   1.829   1.789   1.751   1.722   1.691   1.658   1.63    1.605
+[controller_lazer-4]  1.58    1.558  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.377720354] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.381313775] [controller_lazer_node]: [ 3.67999999  3.89399999  3.94499999  3.999       4.057       4.11899999
+[controller_lazer-4]   4.18499999  4.256       4.333       4.41500001  4.50299999  4.59899998
+[controller_lazer-4]   4.70199998  4.51799998  4.65099998  4.79449998  4.60349998  4.77324998
+[controller_lazer-4]   4.92524998  4.72224998  6.78199992  8.88399996 10.93299997 10.71399997
+[controller_lazer-4]  12.69700006 14.59700008 16.60975003 18.61775002 20.58175012 22.48675019
+[controller_lazer-4]  24.32375014 26.08875021 27.79175019 29.43375024 31.29875025 32.80875024
+[controller_lazer-4]  34.26625028 36.01725033 37.37550032 38.71450031 40.3725003  39.73675036
+[controller_lazer-4]  39.02975035 38.34675038 39.90475035][0m
+[controller_lazer-4] [0m[INFO] [1705929159.384319449] [controller_lazer_node]: 最も遠い点の角度: 25.888031440313387度, 距離: 1.9225000143051147[0m
+[servo-3] [INFO] [1705929159.388151106] [drive_node]: subscribe servo throtle: 3.0, steering: 25.888031440313387
+[servo-3] [INFO] [1705929159.391344887] [drive_node]: set_angle: 25.888031440313387 [263.70656186562206]
+[servo-3] [INFO] [1705929159.395353891] [drive_node]: set_accel: 3.0 [345.0]
+[controller_lazer-4] [0m[INFO] [1705929159.493020182] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.495665346] [controller_lazer_node]: [0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.12675 0.13    0.      0.144   0.149
+[controller_lazer-4]  0.15675 0.16975 0.17775 0.18675 0.19575 0.21775 0.23175 0.24675 0.35175
+[controller_lazer-4]  0.344   0.332   0.321   0.309   0.299   0.      0.289   0.28    0.271
+[controller_lazer-4]  0.264   0.256   0.25    0.244   0.238   0.233   0.      0.228   0.224
+[controller_lazer-4]  0.22    0.216  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.498654002] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.501368664] [controller_lazer_node]: [0.         0.         0.         0.         0.         0.
+[controller_lazer-4]  0.         0.         0.         0.         0.         0.12675001
+[controller_lazer-4]  0.25675    0.25675    0.40075    0.54975    0.70649999 0.87625
+[controller_lazer-4]  1.05400001 1.24075    1.4365     1.65425    1.88599999 2.13274999
+[controller_lazer-4]  2.48449998 2.82849999 3.16049998 3.48149998 3.79049997 4.08949997
+[controller_lazer-4]  4.08949997 4.37849997 4.53174996 4.67274997 4.93674996 5.04874998
+[controller_lazer-4]  5.14974998 5.23699999 5.30524999 5.36049998 5.17374998 5.20599999
+[controller_lazer-4]  5.21224999 5.2005     5.16975001][0m
+[controller_lazer-4] [0m[INFO] [1705929159.504111419] [controller_lazer_node]: 最も遠い点の角度: 24.498070014969223度, 距離: 0.2552619037174043[0m
+[servo-3] [INFO] [1705929159.507738190] [drive_node]: subscribe servo throtle: 0.0, steering: 24.498070014969223
+[servo-3] [INFO] [1705929159.510500426] [drive_node]: set_angle: 24.498070014969223 [268.3397666167693]
+[servo-3] [INFO] [1705929159.514519263] [drive_node]: set_accel: 0.0 [360.0]
+[controller_lazer-4] [0m[INFO] [1705929159.612442011] [controller_lazer_node]: ----------------------------- ranges[0m
+[controller_lazer-4] [0m[INFO] [1705929159.615041676] [controller_lazer_node]: [0.      0.      0.      0.      0.      0.      0.      0.      0.
+[controller_lazer-4]  0.      0.      0.      0.      0.      0.12575 0.128   0.134   0.137
+[controller_lazer-4]  0.141   0.144   0.148   0.158   0.162   0.168   0.174   0.18    0.19475
+[controller_lazer-4]  0.20275 0.21075 0.22075 0.23075 0.42675 0.422   0.      0.36375 0.
+[controller_lazer-4]  0.33875 0.31675 0.29875 0.28175 0.26775 0.      0.25475 0.24275 0.23275
+[controller_lazer-4]  0.223   0.214   0.206   0.      0.2     0.193   0.187   0.182   0.177
+[controller_lazer-4]  0.172   0.168   0.      0.164   0.16    0.156   0.153   0.15    0.147
+[controller_lazer-4]  0.145   0.143  ][0m
+[controller_lazer-4] [0m[INFO] [1705929159.617715284] [controller_lazer_node]: ----------------------------- conv[0m
+[controller_lazer-4] [0m[INFO] [1705929159.620261468] [controller_lazer_node]: [0.95775001 1.11575001 1.27775002 1.44575001 1.61975001 1.79975002
+[controller_lazer-4]  1.99450001 2.19725001 2.40800001 2.62875001 2.85950001 3.28625001
+[controller_lazer-4]  3.70825    3.70825    4.07200001 3.94625001 4.15700001 4.33974999
+[controller_lazer-4]  4.50150001 4.64225    4.766      4.618      4.71475001 4.79550001
+[controller_lazer-4]  4.86025001 4.90925002 4.94325002 4.95450002 4.75175002 4.74100003
+[controller_lazer-4]  4.71325003 4.66950004 4.42475003 4.17975004 4.35175005 4.15600003
+[controller_lazer-4]  4.15600003 3.98125003 3.82450004 3.68175003 3.55300003 3.43525004
+[controller_lazer-4]  3.58225004 3.47250003 3.37275003][0m
+[controller_lazer-4] [0m[INFO] [1705929159.623369974] [controller_lazer_node]: 最も遠い点の角度: 7.818532910839228度, 距離: 0.2359285723595392[0m
+[servo-3] [INFO] [1705929159.627213926] [drive_node]: subscribe servo throtle: 0.0, steering: 7.818532910839228
+[servo-3] [INFO] [1705929159.629875515] [drive_node]: set_angle: 7.818532910839228 [323.9382236305359]
+[servo-3] [INFO] [1705929159.634013832] [drive_node]: set_accel: 0.0 [360.0]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[ydlidar_ros2_driver_node-1] [0m[INFO] [1705929159.673198282] [rclcpp]: signal_handler(signum=2)[0m
+[static_transform_publisher-2] [INFO] [1705929159.673183357] [rclcpp]: signal_handler(signum=2)
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 47437]
+[ERROR] [controller_lazer-4]: process has died [pid 47444, exit code 1, cmd '/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/controller_lazer --ros-args --params-file /home/neko/Documents/Car/ydlidar_ros2_ws/src/rpi_robot_py/params/controller_00.yaml'].
+[ERROR] [servo-3]: process has died [pid 47442, exit code 1, cmd '/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/servo --ros-args'].
+[ydlidar_ros2_driver_node-1] [0m[INFO] [1705929159.724211824] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Now YDLIDAR is stopping .......[0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR DEBUG] Thread [0xA687A8E0] ready to cancel[0]
+[ydlidar_ros2_driver_node-1] [YDLIDAR DEBUG] Thread [0xA687A8E0] ready to cancel[0] time[1]
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Thread [0xA687A8E0] has been canceled
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Now lidar scanning has stopped!
+[controller_lazer-4] Traceback (most recent call last):
+[controller_lazer-4]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/controller_lazer", line 33, in <module>
+[controller_lazer-4]     sys.exit(load_entry_point('rpi-robot-py==0.0.0', 'console_scripts', 'controller_lazer')())
+[controller_lazer-4]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/python3.10/site-packages/rpi_robot_py/controller_lazer.py", line 172, in main
+[controller_lazer-4]     rclpy.shutdown()
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[controller_lazer-4]     _shutdown(context=context)
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[controller_lazer-4]     return context.shutdown()
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[controller_lazer-4]     self.__context.shutdown()
+[controller_lazer-4] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[servo-3] [INFO] [1705929159.689138005] [drive_node]: set_angle: 0 [350.0]
+[servo-3] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[servo-3] [INFO] [1705929159.697454451] [drive_node]: set_accel: 0 [360.0]
+[servo-3] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[servo-3] Traceback (most recent call last):
+[servo-3]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/servo", line 33, in <module>
+[servo-3]     sys.exit(load_entry_point('rpi-robot-py==0.0.0', 'console_scripts', 'servo')())
+[servo-3]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/python3.10/site-packages/rpi_robot_py/output_servo.py", line 86, in main
+[servo-3]     rclpy.shutdown()
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[servo-3]     _shutdown(context=context)
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[servo-3]     return context.shutdown()
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[servo-3]     self.__context.shutdown()
+[servo-3] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[INFO] [ydlidar_ros2_driver_node-1]: process has finished cleanly [pid 47435]

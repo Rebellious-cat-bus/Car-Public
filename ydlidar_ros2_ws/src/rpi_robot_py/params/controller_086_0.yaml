@@ -1,0 +1,6 @@
+controller_lazer_node:
+  ros__parameters:
+    conv_num: 21
+    speed_func: 8
+    angle_func: 6
+    sleep_msec: 0

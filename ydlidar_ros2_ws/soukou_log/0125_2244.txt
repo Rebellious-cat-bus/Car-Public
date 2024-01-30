@@ -1,0 +1,380 @@
+[INFO] [launch]: All log files can be found below /home/neko/.ros/log/2024-01-25-22-43-37-292274-nekobus-3312
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ydlidar_ros2_driver_node-1]: process started with pid [3323]
+[INFO] [controller_lazer-4]: process started with pid [3329]
+[INFO] [static_transform_publisher-2]: process started with pid [3325]
+[INFO] [servo-3]: process started with pid [3327]
+[INFO] [rviz2-5]: process started with pid [3331]
+[static_transform_publisher-2] [WARN] []: Old-style arguments are deprecated; see --help for new-style arguments
+[ydlidar_ros2_driver_node-1] [0m[INFO] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Current ROS Driver Version: 1.0.1
+[ydlidar_ros2_driver_node-1] [0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK initializing
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK has been initialized
+[ydlidar_ros2_driver_node-1] [YDLIDAR] SDK Version: 1.1.21
+[static_transform_publisher-2] [INFO] [static_tf_pub_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.020000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'base_link' to 'laser_frame'
+[rviz2-5] qt.qpa.xcb: could not connect to display 
+[rviz2-5] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+[rviz2-5] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+[rviz2-5] 
+[rviz2-5] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
+[rviz2-5] 
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar successfully connected [/dev/ttyUSB0:115200]
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar running correctly! The health status: good
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Lidar init success, Elapsed time 651 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fail to get baseplate device information
+[controller_lazer-4] improt done
+[controller_lazer-4] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: ReliabilityPolicy.RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT is deprecated. Use ReliabilityPolicy.BEST_EFFORT instead.
+[controller_lazer-4]   warnings.warn(
+[controller_lazer-4] /opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/qos.py:307: UserWarning: HistoryPolicy.RMW_QOS_POLICY_HISTORY_KEEP_LAST is deprecated. Use HistoryPolicy.KEEP_LAST instead.
+[controller_lazer-4]   warnings.warn(
+[ERROR] [rviz2-5]: process has died [pid 3331, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/neko/Documents/Car/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz --ros-args -r __node:=rviz2'].
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: ------------- params -----------[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: conv_num:   21[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: speed_func: 6[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: angle_func: 4[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: sleep_msec: 0[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: --------------------------------[0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Start to getting intensity flag
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Auto set intensity 0
+[ydlidar_ros2_driver_node-1] [YDLIDAR] End to getting intensity flag
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Create thread 0xA77EE8E0
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Successed to start scan mode, Elapsed time 2799 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Fixed Size: 720
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Single Fixed Size: 260
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Sample Rate: 3.00K
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Successed to check the lidar, Elapsed time 341 ms
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Now lidar is scanning...
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:   19.81, actual_angle:    5.94, max_dist:    1.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    0.87, speed:    3.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    0.69, speed:    3.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:   44.83, actual_angle:   13.45, max_dist:    0.76, speed:    3.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:   21.20, actual_angle:    6.36, max_dist:    1.19, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.89, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.88, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.92, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:42 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.72, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:    1.74, actual_angle:    0.52, max_dist:    3.63, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.76, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.67, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.49, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:    0.35, actual_angle:    0.10, max_dist:    3.56, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    3.34, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    3.37, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    3.24, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -3.82, actual_angle:   -1.15, max_dist:    3.02, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.96, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.89, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:43 max_angle:   -6.60, actual_angle:   -1.98, max_dist:    2.75, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:   -9.38, actual_angle:   -2.81, max_dist:    2.64, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.57, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -17.72, actual_angle:   -5.32, max_dist:    2.48, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -23.28, actual_angle:   -6.98, max_dist:    2.49, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -28.84, actual_angle:   -8.65, max_dist:    2.72, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -35.79, actual_angle:  -10.74, max_dist:    2.83, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -35.79, actual_angle:  -10.74, max_dist:    3.02, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -34.40, actual_angle:  -10.32, max_dist:    2.90, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -28.84, actual_angle:   -8.65, max_dist:    2.90, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -24.67, actual_angle:   -7.40, max_dist:    2.77, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -19.11, actual_angle:   -5.73, max_dist:    2.70, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:44 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.78, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:   -9.38, actual_angle:   -2.81, max_dist:    2.54, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:   -6.60, actual_angle:   -1.98, max_dist:    2.31, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.20, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.06, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:   -9.38, actual_angle:   -2.81, max_dist:    2.06, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -16.33, actual_angle:   -4.90, max_dist:    1.98, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    2.12, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -31.62, actual_angle:   -9.49, max_dist:    2.04, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    2.05, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -38.57, actual_angle:  -11.57, max_dist:    2.16, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    2.44, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:45 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.47, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.94, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.02, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.14, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -41.35, actual_angle:  -12.41, max_dist:    3.10, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -30.23, actual_angle:   -9.07, max_dist:    3.09, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:  -19.11, actual_angle:   -5.73, max_dist:    2.88, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.60, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:    7.30, actual_angle:    2.19, max_dist:    2.52, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:   19.81, actual_angle:    5.94, max_dist:    2.46, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:   29.54, actual_angle:    8.86, max_dist:    2.68, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:   40.66, actual_angle:   12.20, max_dist:    3.42, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:46 max_angle:   43.44, actual_angle:   13.03, max_dist:    3.34, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.29, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.28, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.26, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.38, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   42.05, actual_angle:   12.61, max_dist:    3.26, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   35.10, actual_angle:   10.53, max_dist:    2.92, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   26.76, actual_angle:    8.03, max_dist:    2.74, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   18.42, actual_angle:    5.53, max_dist:    2.68, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:    8.69, actual_angle:    2.61, max_dist:    2.40, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:  -17.72, actual_angle:   -5.32, max_dist:    2.76, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:47 max_angle:  -31.62, actual_angle:   -9.49, max_dist:    2.80, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -38.57, actual_angle:  -11.57, max_dist:    2.70, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.62, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.40, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -39.96, actual_angle:  -11.99, max_dist:    2.35, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -39.96, actual_angle:  -11.99, max_dist:    2.36, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -33.01, actual_angle:   -9.90, max_dist:    2.32, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -27.45, actual_angle:   -8.24, max_dist:    2.40, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -23.28, actual_angle:   -6.98, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -17.72, actual_angle:   -5.32, max_dist:    2.49, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -16.33, actual_angle:   -4.90, max_dist:    2.45, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:48 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -21.89, actual_angle:   -6.57, max_dist:    2.39, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    2.21, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -31.62, actual_angle:   -9.49, max_dist:    2.20, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -38.57, actual_angle:  -11.57, max_dist:    2.41, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.68, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.82, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -41.35, actual_angle:  -12.41, max_dist:    2.92, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    4.89, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    4.12, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -39.96, actual_angle:  -11.99, max_dist:    5.31, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:49 max_angle:  -27.45, actual_angle:   -8.24, max_dist:    4.75, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    4.99, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    4.93, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:    5.91, actual_angle:    1.77, max_dist:    4.65, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.86, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   15.64, actual_angle:    4.69, max_dist:    4.76, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.77, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.63, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.39, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.24, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.11, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.94, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:50 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.87, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.43, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:   12.86, actual_angle:    3.86, max_dist:    3.28, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:   11.47, actual_angle:    3.44, max_dist:    3.06, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:    8.69, actual_angle:    2.61, max_dist:    2.86, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:    5.91, actual_angle:    1.77, max_dist:    2.53, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:    1.74, actual_angle:    0.52, max_dist:    2.44, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    2.22, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.10, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:  -33.01, actual_angle:   -9.90, max_dist:    2.18, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.34, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.09, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:51 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.11, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.25, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.62, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    4.66, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    3.75, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -30.23, actual_angle:   -9.07, max_dist:    3.03, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    2.92, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.76, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:   -7.99, actual_angle:   -2.40, max_dist:    2.67, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:   -3.82, actual_angle:   -1.15, max_dist:    2.44, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    2.40, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    2.26, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:52 max_angle:   -3.82, actual_angle:   -1.15, max_dist:    2.07, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    1.95, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:   -7.99, actual_angle:   -2.40, max_dist:    1.85, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    1.87, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -17.72, actual_angle:   -5.32, max_dist:    1.90, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -27.45, actual_angle:   -8.24, max_dist:    2.10, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    2.48, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.62, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.82, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.01, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:53 max_angle:  -34.40, actual_angle:  -10.32, max_dist:    2.71, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:  -21.89, actual_angle:   -6.57, max_dist:    2.56, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.42, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:    4.52, actual_angle:    1.36, max_dist:    2.17, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   17.03, actual_angle:    5.11, max_dist:    2.30, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   30.93, actual_angle:    9.28, max_dist:    2.30, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.23, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.65, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.62, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.84, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.73, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.88, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:54 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.86, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:   43.44, actual_angle:   13.03, max_dist:    3.01, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:   37.88, actual_angle:   11.36, max_dist:    2.75, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:   29.54, actual_angle:    8.86, max_dist:    2.47, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:   22.59, actual_angle:    6.78, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:   17.03, actual_angle:    5.11, max_dist:    1.99, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:    1.74, actual_angle:    0.52, max_dist:    2.01, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -23.28, actual_angle:   -6.98, max_dist:    2.66, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    2.66, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.58, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -41.35, actual_angle:  -12.41, max_dist:    2.38, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.29, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:55 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.35, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.51, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    2.38, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -30.23, actual_angle:   -9.07, max_dist:    2.41, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -27.45, actual_angle:   -8.24, max_dist:    2.45, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -21.89, actual_angle:   -6.57, max_dist:    2.48, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.48, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.42, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.30, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -20.50, actual_angle:   -6.15, max_dist:    2.31, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -23.28, actual_angle:   -6.98, max_dist:    2.36, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:56 max_angle:  -28.84, actual_angle:   -8.65, max_dist:    2.23, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -34.40, actual_angle:  -10.32, max_dist:    2.36, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.64, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.74, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.07, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    4.20, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    5.22, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -41.35, actual_angle:  -12.41, max_dist:    4.69, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -30.23, actual_angle:   -9.07, max_dist:    5.00, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -19.11, actual_angle:   -5.73, max_dist:    4.70, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    4.73, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:    1.74, actual_angle:    0.52, max_dist:    4.85, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:57 max_angle:    8.69, actual_angle:    2.61, max_dist:    4.77, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.90, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   19.81, actual_angle:    5.94, max_dist:    4.74, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.69, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.43, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.45, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.17, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.18, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.94, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.48, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   11.47, actual_angle:    3.44, max_dist:    3.28, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:   17.03, actual_angle:    5.11, max_dist:    3.13, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:58 max_angle:    7.30, actual_angle:    2.19, max_dist:    3.01, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:    3.13, actual_angle:    0.94, max_dist:    2.82, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:   -1.04, actual_angle:   -0.31, max_dist:    2.48, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    2.35, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.35, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -28.84, actual_angle:   -8.65, max_dist:    2.21, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.49, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.29, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.26, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.41, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    2.89, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    3.22, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:43:59 max_angle:  -34.40, actual_angle:  -10.32, max_dist:    3.55, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -28.84, actual_angle:   -8.65, max_dist:    3.05, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -20.50, actual_angle:   -6.15, max_dist:    2.87, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.73, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:   -5.21, actual_angle:   -1.56, max_dist:    2.61, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    2.50, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:   -2.43, actual_angle:   -0.73, max_dist:    2.27, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:   -3.82, actual_angle:   -1.15, max_dist:    2.25, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:   -9.38, actual_angle:   -2.81, max_dist:    2.19, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.12, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -16.33, actual_angle:   -4.90, max_dist:    2.08, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -21.89, actual_angle:   -6.57, max_dist:    1.98, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:00 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    1.99, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -34.40, actual_angle:  -10.32, max_dist:    2.22, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.53, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.39, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.55, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.90, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.08, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.99, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    3.00, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    2.80, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.64, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:    0.35, actual_angle:    0.10, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:01 max_angle:   12.86, actual_angle:    3.86, max_dist:    2.28, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   23.98, actual_angle:    7.19, max_dist:    2.34, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   39.27, actual_angle:   11.78, max_dist:    2.91, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.59, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.71, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.67, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.34, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.53, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    2.92, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   44.83, actual_angle:   13.45, max_dist:    3.00, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   37.88, actual_angle:   11.36, max_dist:    2.76, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   32.32, actual_angle:    9.69, max_dist:    2.51, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:02 max_angle:   23.98, actual_angle:    7.19, max_dist:    2.35, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:   17.03, actual_angle:    5.11, max_dist:    2.16, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:    7.30, actual_angle:    2.19, max_dist:    1.96, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:   -7.99, actual_angle:   -2.40, max_dist:    2.27, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -33.01, actual_angle:   -9.90, max_dist:    2.56, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.50, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -44.13, actual_angle:  -13.24, max_dist:    2.47, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -42.74, actual_angle:  -12.82, max_dist:    2.34, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.28, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.40, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -41.35, actual_angle:  -12.41, max_dist:    2.38, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -35.79, actual_angle:  -10.74, max_dist:    2.37, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:03 max_angle:  -31.62, actual_angle:   -9.49, max_dist:    2.41, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -26.06, actual_angle:   -7.82, max_dist:    2.51, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -20.50, actual_angle:   -6.15, max_dist:    2.62, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.56, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    2.27, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -14.94, actual_angle:   -4.48, max_dist:    2.29, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -21.89, actual_angle:   -6.57, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -24.67, actual_angle:   -7.40, max_dist:    2.23, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -30.23, actual_angle:   -9.07, max_dist:    2.21, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -37.18, actual_angle:  -11.15, max_dist:    2.33, speed:    4.50[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    2.77, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:04 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.07, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.85, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.85, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -45.52, actual_angle:  -13.66, max_dist:    3.96, speed:    8.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -31.62, actual_angle:   -9.49, max_dist:    4.01, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -20.50, actual_angle:   -6.15, max_dist:    5.00, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:  -13.55, actual_angle:   -4.07, max_dist:    4.99, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:    0.35, actual_angle:    0.10, max_dist:    4.86, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:    4.52, actual_angle:    1.36, max_dist:    4.76, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:    8.69, actual_angle:    2.61, max_dist:    4.74, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:   14.25, actual_angle:    4.27, max_dist:    4.70, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:   17.03, actual_angle:    5.11, max_dist:    4.64, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:05 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.64, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:06 max_angle:   19.81, actual_angle:    5.94, max_dist:    4.50, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:06 max_angle:   19.81, actual_angle:    5.94, max_dist:    4.26, speed:   10.00[0m
+[controller_lazer-4] [0m[INFO] [controller_lazer_node]: 22:44:06 max_angle:   18.42, actual_angle:    5.53, max_dist:    4.12, speed:   10.00[0m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[ydlidar_ros2_driver_node-1] [0m[INFO] [rclcpp]: signal_handler(signum=2)[0m
+[static_transform_publisher-2] [INFO] [rclcpp]: signal_handler(signum=2)
+[ydlidar_ros2_driver_node-1] [0m[INFO] [ydlidar_ros2_driver_node]: [YDLIDAR INFO] Now YDLIDAR is stopping .......[0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR DEBUG] Thread [0xA77EE8E0] ready to cancel[0]
+[ydlidar_ros2_driver_node-1] [YDLIDAR DEBUG] Thread [0xA77EE8E0] ready to cancel[0] time[1]
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Thread [0xA77EE8E0] has been canceled
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 3325]
+[controller_lazer-4] Traceback (most recent call last):
+[controller_lazer-4]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/controller_lazer", line 33, in <module>
+[controller_lazer-4]     sys.exit(load_entry_point('rpi-robot-py==0.0.0', 'console_scripts', 'controller_lazer')())
+[controller_lazer-4]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/python3.10/site-packages/rpi_robot_py/controller_lazer.py", line 268, in main
+[controller_lazer-4]     rclpy.shutdown()
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[controller_lazer-4]     _shutdown(context=context)
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[controller_lazer-4]     return context.shutdown()
+[controller_lazer-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[controller_lazer-4]     self.__context.shutdown()
+[controller_lazer-4] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[servo-3] Traceback (most recent call last):
+[servo-3]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/servo", line 33, in <module>
+[servo-3]     sys.exit(load_entry_point('rpi-robot-py==0.0.0', 'console_scripts', 'servo')())
+[servo-3]   File "/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/python3.10/site-packages/rpi_robot_py/output_servo.py", line 85, in main
+[servo-3]     rclpy.shutdown()
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[servo-3]     _shutdown(context=context)
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[servo-3]     return context.shutdown()
+[servo-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[servo-3]     self.__context.shutdown()
+[servo-3] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[ydlidar_ros2_driver_node-1] [0m[INFO] [rclcpp]: signal_handler(signum=2)[0m
+[ydlidar_ros2_driver_node-1] [YDLIDAR] Now lidar scanning has stopped!
+[ERROR] [servo-3]: process has died [pid 3327, exit code -2, cmd '/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/servo --ros-args'].
+[ERROR] [controller_lazer-4]: process has died [pid 3329, exit code -2, cmd '/home/neko/Documents/Car/ydlidar_ros2_ws/install/rpi_robot_py/lib/rpi_robot_py/controller_lazer --ros-args --params-file /home/neko/Documents/Car/ydlidar_ros2_ws/src/rpi_robot_py/params/controller_064_0.yaml'].
+[INFO] [ydlidar_ros2_driver_node-1]: process has finished cleanly [pid 3323]
