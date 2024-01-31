@@ -7,9 +7,9 @@
 ## How to use
 
 ```bash
-git clone git@github.com:TOYOTA-Rebellious-cat-bus/Car-Public.git
+git clone git@github.com:Rebellious-cat-bus/Car-Public.git
 cd ydlidar_ros2_ws/src
-git clone git@github.com:TOYOTA-Rebellious-cat-bus/ydlidar_ros2_driver.git
+git clone git@github.com:Rebellious-cat-bus/ydlidar_ros2_driver.git
 cd ..
 colcon build
 ros2 launch rpi_robot_py rpi_robot_lazer1003_0.launch.py
